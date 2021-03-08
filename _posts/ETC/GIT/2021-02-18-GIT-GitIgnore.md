@@ -2,8 +2,9 @@
 title: '[Git] .gitignore 사용하기'
 
 categories:
-  - Git
+  - Etc
 tags:
+  - Git
 
 last_modified_at: 2021-02-18T08:06:00-05:00
 

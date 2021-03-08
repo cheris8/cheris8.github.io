@@ -2,8 +2,9 @@
 title: '[Git] 깃을 활용하여 협업하기'
 
 categories:
-  - Git
+  - Etc
 tags:
+  - Git
 
 last_modified_at: 2020-05-05T08:06:00-05:00
 

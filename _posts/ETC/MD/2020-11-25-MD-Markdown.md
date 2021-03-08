@@ -2,7 +2,7 @@
 title: '[마크다운] Markdown 문법 정리'
 
 categories:
-  - ETC
+  - Etc
 tags:
   - Markdown
   - Git

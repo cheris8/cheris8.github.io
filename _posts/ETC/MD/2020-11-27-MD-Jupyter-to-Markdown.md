@@ -2,7 +2,7 @@
 title: '[마크다운] Jupyter notebook을 Markdown으로 변환하는 방법'
 
 categories:
-  - ETC
+  - Etc
 tags:
   - Markdown
 
