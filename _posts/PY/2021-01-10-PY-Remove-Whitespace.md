@@ -2,7 +2,7 @@
 title: '[Python] 문자열/데이터프레임에서 공백 제거하기'
 
 categories:
-  - Data Analysis
+  - Python
 tags:
   - Python
   - Pandas

@@ -2,7 +2,7 @@
 title: '[Python] 문자열 비교하기'
 
 categories:
-  - Data Analysis
+  - Python
 tags:
   - Python
   - Data Preprocessing

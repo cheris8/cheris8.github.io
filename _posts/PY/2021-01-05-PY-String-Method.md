@@ -2,7 +2,7 @@
 title: '[Python] 문자열 메소드 (String Method)'
 
 categories:
-  - Data Analysis
+  - Python
 tags:
   - Python
   - Data Preprocessing

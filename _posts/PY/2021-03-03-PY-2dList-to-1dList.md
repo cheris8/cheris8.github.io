@@ -2,7 +2,7 @@
 title: '[Python] 2차원 리스트를 1차원 리스트로 변환하기'
 
 categories:
-  - Data Analysis
+  - Python
 tags:
   - Python
   - Data Analysis
