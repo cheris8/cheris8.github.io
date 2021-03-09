@@ -4,10 +4,10 @@ title: '[데이터 전처리] 결측치 (Missing Value)'
 categories:
   - Data Analysis
 tags:
+  - Data Analysis
   - Data Preprocessing
   - Python
   - Pandas
-  - Data Analysis
 
 last_modified_at: 2021-01-20T08:06:00-05:00
 
@@ -1142,7 +1142,7 @@ lines, labels = ax.get_legend_handles_labels()
 ax.legend(lines, labels, loc='best')
 ```
 
-![png]({{site.url}}/assets/images/DA/PY/NA-Imputation-01.png)
+![png]({{site.url}}/assets/images/DA/DP/NA-Imputation-01.png)
 
 실제로 원래의 분포와 Mean/Median imputation 후의 분포가 다른 것도 볼 수 있습니다.
 
@@ -1185,7 +1185,7 @@ lines, labels = ax.get_legend_handles_labels()
 ax.legend(lines, labels, loc='best')
 ```
 
-![png]({{site.url}}/assets/images/DA/PY/NA-Imputation-02.png)
+![png]({{site.url}}/assets/images/DA/DP/NA-Imputation-02.png)
 
 실제로 원래의 분포와 Random sample imputation 후의 분포가 비슷한 것을 볼 수 있습니다.
 
