@@ -246,3 +246,7 @@ Skip-Gram의 경우 중심 단어로 주변 단어들을 예측하기 때문에 
 <br>
 <center>$y^{(c−n)}, \cdots, y^{(c−1)}, y^{(c+1)}, \cdots, y^{(c+n)}$</center>
 
+## 5. 참고자료
+
+[Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf)
+
