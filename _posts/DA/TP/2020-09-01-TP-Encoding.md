@@ -2,10 +2,10 @@
 title: '[텍스트 전처리] 정수 인코딩 & 원-핫 인코딩'
 
 categories:
-  - Text Mining
+  - Data Analysis
 tags:
-  - Text Mining
   - Text Preprocessing
+  - Text Mining
   - Natural Language Processing
 
 last_modified_at: 2020-09-01T08:06:00-05:00
