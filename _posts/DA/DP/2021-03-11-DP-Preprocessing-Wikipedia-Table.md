@@ -14,7 +14,7 @@ last_modified_at: 2021-03-11T08:06:00-05:00
 classes: wide
 ---
 
-이 글은 [위키피디아](https://ko.wikipedia.org/wiki/위키백과:대문)에 존재하는 표 형태의 데이터를 전처리 하는 방법에 관한 기록입니다. [위키피디아](https://ko.wikipedia.org/wiki/위키백과:대문)에 존재하는 표 형태의 데이터를 크롤링 하는 방법에 관한 기록은 [이 곳]()에서 볼 수 있습니다.
+이 글은 [위키피디아](https://ko.wikipedia.org/wiki/위키백과:대문)에 존재하는 표 형태의 데이터를 전처리 하는 방법에 관한 기록입니다. [위키피디아](https://ko.wikipedia.org/wiki/위키백과:대문)에 존재하는 표 형태의 데이터를 크롤링 하는 방법에 관한 기록은 [이 곳]({{site.url}}/data%20analysis/DC-Crawling-Wikipedia-Table/)에서 볼 수 있습니다.
 
 ## 실습 Code
 
@@ -25,7 +25,7 @@ import pandas as pd
 import re
 ```
 
-일전에 저장해둔 데이터셋을 불러옵니다.
+그리고 일전에 저장해둔 데이터셋을 불러옵니다.
 
 ```python
 df = pd.read_csv('WikipediaTable.csv', index_col=0)
@@ -196,9 +196,9 @@ df.info()
     dtypes: object(7)
     memory usage: 7.1+ KB
 
-### `제목` 전처리
+### 제목 전처리
 
-데이터셋의 `제목` 컬럼에 대한 전처리 함수를 선언합니다.
+데이터셋의 제목 컬럼에 대한 전처리 함수를 선언합니다.
 
 ```python
 def PreprocessTitle(string):
@@ -213,9 +213,9 @@ def PreprocessTitle(string):
 df['제목'] = df['제목'].apply(PreprocessTitle)
 ```
 
-## `제작/배급` 및 `장르` 전처리
+### 제작/배급 및 장르 전처리
 
-데이터셋의 `제작/배급` 컬럼과 `장르` 컬럼에 대한 전처리 함수를 선언합니다.
+데이터셋의 제작/배급 컬럼과 장르 컬럼에 대한 전처리 함수를 선언합니다.
 
 ```python
 def StringtoList(string):
@@ -232,9 +232,9 @@ df['제작/배급'] = df['제작/배급'].apply(StringtoList)
 df['장르'] = df['장르'].apply(StringtoList)
 ```
 
-## 출연/제작진 전처리
+### 출연/제작진 전처리
 
-데이터셋의 `출연/제작진` 컬럼에 대한 전처리 함수를 선언합니다.
+데이터셋의 출연/제작진 컬럼에 대한 전처리 함수를 선언합니다.
 
 ```python
 def PreprocessCrew(string):
@@ -253,9 +253,15 @@ df['감독'] = [PreprocessCrew(crew)[0] for crew in df['출연/제작진']]
 df['출연'] = [PreprocessCrew(crew)[1] for crew in df['출연/제작진']]
 ```
 
-## 등급 전처리
+새롭게 감독 컬럼과 출연 컬럼을 생성했으므로 기존의 출연/제작진 컬럼은 삭제합니다.
 
-데이터셋의 `등급` 컬럼에 대한 전처리 함수를 선언합니다.
+```python
+df.drop(['출연/제작진'], axis=1, inplace=True)
+```
+
+### 등급 전처리
+
+데이터셋의 등급 컬럼에 대한 전처리 함수를 선언합니다.
 
 ```python
 def PreprocessRating(string):
