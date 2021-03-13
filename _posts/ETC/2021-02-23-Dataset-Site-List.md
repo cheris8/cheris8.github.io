@@ -1,8 +1,8 @@
 ---
-title: '[ETC] 데이터셋 사이트'
+title: '데이터셋 사이트'
 
 categories:
-  - ETC
+  - Etc
 tags:
 
 last_modified_at: 2021-02-23T08:06:00-05:00
