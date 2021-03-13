@@ -59,13 +59,13 @@ CBOW에서는 윈도우를 계속 움직이면서 중심 단어와 주변 단어
 
 이때 슬라이딩 윈도우는 다음과 같이 이루어집니다.
 
-![]({{site.url}}/assets/images/cbow_dataset.PNG)
+![]({{site.url}}/assets/images/DL/NLP/cbow_dataset.PNG)
 
 ### 3.2. CBOW 아키텍처
 
 CBOW의 아키텍처는 다음과 같습니다.
 
-![]({{site.url}}/assets/images/cbow.png)
+![]({{site.url}}/assets/images/DL/NLP/cbow.png)
 
 위 그림에서  $V$는 one-hot vector의 차원을, $N$은 사용자가 설정한 embedded vector의 차원을 의미합니다.
 
@@ -110,7 +110,7 @@ CBOW는 주변에 있는 단어들로 중간에 있는 단어들을 예측하는
 
 이러한 과정을 그림으로 나타내면 다음과 같습니다.
 
-![]({{site.url}}/assets/images/word2vec_renew_3.PNG)
+![]({{site.url}}/assets/images/DL/NLP/word2vec_renew_3.PNG)
 
 **다음으로 embedded vector들에 대하여 평균을 내 평균 벡터를 구합니다.**
 
@@ -122,7 +122,7 @@ CBOW는 주변에 있는 단어들로 중간에 있는 단어들을 예측하는
 
 이를 그림으로 나타내면 다음과 같습니다.
 
-![]({{site.url}}/assets/images/word2vec_renew_4.PNG)
+![]({{site.url}}/assets/images/DL/NLP/word2vec_renew_4.PNG)
 
 **그러고 나서 평균 벡터와 가중치 행렬을 곱하여 score vector를 구합니다.**
 
@@ -140,7 +140,7 @@ $\hat{y}$는 score vector에 소프트맥스 함수를 취한 것으로, 각 원
 
 이를 그림으로 나타내면 다음과 같습니다.
 
-![]({{site.url}}/assets/images/word2vec_renew_5.PNG)
+![]({{site.url}}/assets/images/DL/NLP/word2vec_renew_5.PNG)
 
 ### 3.4. CBOW 학습 과정
 
@@ -170,7 +170,7 @@ Skip-gram은 중간에 있는 단어들로 주변에 있는 단어들을 예측�
 - 윈도우 크기 (window size) : 앞뒤로 몇 개의 단어들을 주변 단어로 볼 것인지
     - 즉 윈도우 크기가 $n$이면 앞쪽의 단어 $n$개와 뒤쪽의 단어 $n$개 총 $2n$개의 주변 단어들을 예측 
     
-![]({{site.url}}/assets/images/word2vec_renew_6.PNG)
+![]({{site.url}}/assets/images/DL/NLP/word2vec_renew_6.PNG)
 
 **슬라이딩 윈도우 (Sliding Window)**
 
@@ -182,13 +182,13 @@ Skip-gram에서는 윈도우를 계속 움직이면서 중심 단어와 주변 �
 
 이때 슬라이딩 윈도우는 다음과 같이 이루어집니다.
 
-![]({{site.url}}/assets/images/skipgram_dataset.PNG)
+![]({{site.url}}/assets/images/DL/NLP/skipgram_dataset.PNG)
 
 ### 4.2. Skip-gram 아키텍처
 
 Skip-gram의 아키텍처는 다음과 같습니다.
 
-![]({{site.url}}/assets/images/skipgram.png)
+![]({{site.url}}/assets/images/DL/NLP/skipgram.png)
 
 위 그림에서  $V$는 one-hot vector의 차원을, $N$은 사용자가 설정한 embedded vector의 차원을 의미합니다.
 
