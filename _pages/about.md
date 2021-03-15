@@ -22,7 +22,6 @@ classes: wide
 |---- ETC
        |---- Git
        |---- Markdown
-
 ```
 
 ## Machine Learning ; ML
