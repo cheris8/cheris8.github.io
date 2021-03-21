@@ -54,6 +54,7 @@ classes: wide
 * * *
 
 - `list.count(x)` : 리스트 `list`에서 요소 `x`가 등장한 횟수 반환
+  - _참고)_ `len(list)` : 리스트의 길이 반환
 
 * * *
 
