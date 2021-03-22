@@ -15,8 +15,6 @@ last_modified_at: 2020-06-29T08:06:00-05:00
 classes: wide
 ---
 
-이 글은 연세대학교 송민 교수님 수업의 프로젝트 기록입니다.
-
 ![]({{site.url}}/assets/images/DA/TM/Drama/슬라이드1.png)
 
 ![]({{site.url}}/assets/images/DA/TM/Drama/슬라이드2.png)
