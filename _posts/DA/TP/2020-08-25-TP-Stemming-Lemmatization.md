@@ -3,6 +3,7 @@ title: '[텍스트 전처리] 어간 추출 (Stemming) & 원형 복원 (Lemmatiz
 
 categories:
   - Data Analysis
+  - Text Preprocessing
 tags:
   - Data Analysis
   - Text Preprocessing

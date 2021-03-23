@@ -3,6 +3,7 @@ title: '[데이터 전처리] 수치형 데이터를 범주형 데이터로 변�
 
 categories:
   - Data Analysis
+  - Data Preprocessing
 tags:
   - Data Analysis
   - Data Preprocessing

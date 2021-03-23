@@ -3,6 +3,7 @@ title: '[텍스트 전처리] 형태소 분석'
 
 categories:
   - Data Analysis
+  - Text Preprocessing
 tags:
   - Data Analysis
   - Text Preprocessing

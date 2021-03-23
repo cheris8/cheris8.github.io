@@ -3,6 +3,7 @@ title: '[텍스트 전처리] 문장 토큰화 (Sentence Tokenization)'
 
 categories:
   - Data Analysis
+  - Text Preprocessing
 tags:
   - Data Analysis
   - Text Preprocessing

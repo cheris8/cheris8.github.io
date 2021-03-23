@@ -3,6 +3,7 @@ title: '[데이터 전처리] 결측치 (Missing Value)'
 
 categories:
   - Data Analysis
+  - Data Preprocessing
 tags:
   - Data Analysis
   - Data Preprocessing

@@ -3,6 +3,7 @@ title: '[데이터 전처리] 위키피디아 표 데이터 전처리 하기'
 
 categories:
   - Data Analysis
+  - Data Preprocessing
 tags:
   - Data Analysis
   - Data Preprocessing

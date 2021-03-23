@@ -3,6 +3,7 @@ title: '[텍스트 전처리] 단어 토큰화 (Word Tokenization)'
 
 categories:
   - Data Analysis
+  - Text Preprocessing
 tags:
   - Data Analysis
   - Text Preprocessing

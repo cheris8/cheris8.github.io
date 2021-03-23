@@ -3,6 +3,7 @@ title: '[텍스트 전처리] 텍스트 표현 (Text Representation)'
 
 categories:
   - Data Analysis
+  - Text Preprocessing
 tags:
   - Text Preprocessing
   - Text Mining

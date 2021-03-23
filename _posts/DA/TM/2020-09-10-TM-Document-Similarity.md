@@ -3,6 +3,7 @@ title: '[텍스트 마이닝] 문서 유사도 - 유클리드 거리 & 코사인
 
 categories:
   - Data Analysis
+  - Text Mining
 tags:
   - Data Analysis
   - Text Preprocessing

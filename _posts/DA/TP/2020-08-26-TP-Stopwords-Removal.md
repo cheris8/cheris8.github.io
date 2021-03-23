@@ -3,6 +3,7 @@ title: '[텍스트 전처리] 불용어 제거 (Stopwords Removal)'
 
 categories:
   - Data Analysis
+  - Text Preprocessing
 tags:
   - Text Preprocessing
   - Text Mining
