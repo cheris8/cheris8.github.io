@@ -5,8 +5,6 @@ categories:
   - Data Analysis
 tags:
   - Data Analysis
-  - Data Preprocessing
-  - Machine Learning
   - Project
 
 last_modified_at: 2020-06-15T08:06:00-05:00

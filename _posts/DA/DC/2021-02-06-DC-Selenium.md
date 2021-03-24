@@ -3,12 +3,9 @@ title: '[데이터 크롤링] Selenium with Python'
 
 categories:
   - Data Analysis
-  - Data Crawling
 tags:
   - Data Analysis
   - Data Crawling
-  - Selenium
-  - Python
 
 last_modified_at: 2021-02-06T08:06:00-05:00
 

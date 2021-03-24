@@ -3,13 +3,8 @@ title: '[텍스트 마이닝] 문서 유사도 - 유클리드 거리 & 코사인
 
 categories:
   - Data Analysis
-  - Text Mining
 tags:
-  - Data Analysis
-  - Text Preprocessing
   - Text Mining
-  - Natural Language Processing
-  - Python
 
 last_modified_at: 2020-09-10T08:06:00-05:00
 

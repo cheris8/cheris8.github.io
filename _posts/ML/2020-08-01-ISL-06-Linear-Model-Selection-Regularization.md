@@ -5,9 +5,6 @@ categories:
   - Machine Learning
 tags:
   - Machine Learning
-  - ISL
-  - Classification
-  - Regression
 
 last_modified_at: 2020-08-01T08:06:00-05:00
 

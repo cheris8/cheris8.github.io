@@ -6,8 +6,6 @@ categories:
 tags:
   - Deep Learning
   - Natural Language Processing
-  - Text Mining
-  - Text Preprocessing
 
 last_modified_at: 2020-11-11T08:06:00-05:00
 

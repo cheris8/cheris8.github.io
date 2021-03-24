@@ -5,7 +5,6 @@ categories:
   - Etc
 tags:
   - Markdown
-  - Git
 
 last_modified_at: 2020-11-25T08:06:00-05:00
 

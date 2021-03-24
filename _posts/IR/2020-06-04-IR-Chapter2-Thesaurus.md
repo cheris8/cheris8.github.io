@@ -5,7 +5,6 @@ categories:
   - Informatoin Retrieval
 tags:
   - Informatoin Retrieval
-  - Text Mining
 
 last_modified_at: 2020-06-04T08:06:00-05:00
 

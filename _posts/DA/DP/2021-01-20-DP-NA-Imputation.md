@@ -3,12 +3,8 @@ title: '[데이터 전처리] 결측치 (Missing Value)'
 
 categories:
   - Data Analysis
-  - Data Preprocessing
 tags:
-  - Data Analysis
   - Data Preprocessing
-  - Python
-  - Pandas
 
 last_modified_at: 2021-01-20T08:06:00-05:00
 

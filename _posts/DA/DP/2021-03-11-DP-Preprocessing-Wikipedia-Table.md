@@ -3,12 +3,8 @@ title: '[데이터 전처리] 위키피디아 표 데이터 전처리 하기'
 
 categories:
   - Data Analysis
-  - Data Preprocessing
 tags:
-  - Data Analysis
   - Data Preprocessing
-  - Text Preprocessing
-  - Python
 
 last_modified_at: 2021-03-11T08:06:00-05:00
 

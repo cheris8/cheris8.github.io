@@ -3,12 +3,8 @@ title: '[텍스트 마이닝] 텍스트마이닝을 통한 드라마 가치 요�
 
 categories:
   - Data Analysis
-  - Text Mining
 tags:
-  - Data Analysis
-  - Text Preprocessing
   - Text Mining
-  - Natural Language Processing
   - Project
 
 last_modified_at: 2020-06-29T08:06:00-05:00

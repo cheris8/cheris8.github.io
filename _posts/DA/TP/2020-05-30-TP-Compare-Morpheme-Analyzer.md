@@ -3,12 +3,8 @@ title: '[텍스트 전처리] 한국어 형태소 분석기 비교 - Komoran & K
 
 categories:
   - Data Analysis
-  - Text Preprocessing
 tags:
-  - Data Analysis
   - Text Preprocessing
-  - Text Mining
-  - Natural Language Processing
 
 last_modified_at: 2020-05-30T08:06:00-05:00
 

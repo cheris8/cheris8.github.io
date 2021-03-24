@@ -3,13 +3,8 @@ title: '[텍스트 전처리] 형태소 분석'
 
 categories:
   - Data Analysis
-  - Text Preprocessing
 tags:
-  - Data Analysis
   - Text Preprocessing
-  - Text Mining
-  - Natural Language Processing
-  - Python
 
 last_modified_at: 2020-08-23T08:06:00-05:00
 

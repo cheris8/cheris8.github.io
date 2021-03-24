@@ -3,12 +3,8 @@ title: '[텍스트 전처리] 불용어 제거 (Stopwords Removal)'
 
 categories:
   - Data Analysis
-  - Text Preprocessing
 tags:
   - Text Preprocessing
-  - Text Mining
-  - Natural Language Processing
-  - Python
 
 last_modified_at: 2020-08-26T08:06:00-05:00
 

@@ -5,10 +5,6 @@ categories:
   - Python
 tags:
   - Python
-  - Pandas
-  - Data Preprocessing
-  - Text Preprocessing
-  - Data Analysis
 
 last_modified_at: 2021-01-10T08:06:00-05:00
 

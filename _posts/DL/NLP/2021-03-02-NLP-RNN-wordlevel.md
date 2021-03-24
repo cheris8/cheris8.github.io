@@ -5,10 +5,6 @@ categories:
   - Deep Learning
 tags:
   - Natural Language Processing
-  - Text Mining
-  - Text Preprocessing
-  - Deep Learning
-  - PyTorch
 
 last_modified_at: 2021-03-02T08:06:00-05:00
 

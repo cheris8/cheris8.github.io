@@ -3,12 +3,8 @@ title: '[텍스트 전처리] 품사 태깅 (Part-Of-Speech Tagging ; POS Taggin
 
 categories:
   - Data Analysis
-  - Text Preprocessing
 tags:
-  - Data Analysis
   - Text Preprocessing
-  - Text Mining
-  - Natural Language Processing
 
 last_modified_at: 2020-08-24T08:06:00-05:00
 

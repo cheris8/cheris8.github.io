@@ -4,11 +4,8 @@ title: '[NLP] 문자 단위 RNN (Character level RNN) Code'
 categories:
   - Deep Learning
 tags:
-  - Natural Language Processing
-  - Text Mining
-  - Text Preprocessing
   - Deep Learning
-  - PyTorch
+  - Natural Language Processing
 
 last_modified_at: 2021-03-01T08:06:00-05:00
 

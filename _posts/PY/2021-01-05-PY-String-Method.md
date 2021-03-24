@@ -5,9 +5,6 @@ categories:
   - Python
 tags:
   - Python
-  - Data Preprocessing
-  - Text Preprocessing
-  - Data Analysis
 
 last_modified_at: 2021-01-05T08:06:00-05:00
 
