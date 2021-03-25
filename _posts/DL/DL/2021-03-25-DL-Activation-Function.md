@@ -1,5 +1,5 @@
 ---
-title: '[DL] 활성화 함수 (Activation Function)'
+title: '[딥러닝] 활성화 함수 (Activation Function)'
 
 categories:
   - Deep Learning
@@ -175,14 +175,14 @@ $f(x) = \max (\alpha x, x)$
 - 입력값이 0보다 작으면 기울기(gradient)는 $\alpha$이고, 입력값이 0보다 크면 기울기(gradient)는 $1$입니다.
 
 ### 의의
-- 각 레이어마다 적절한 $alpha$를 학습할 수 있습니다.
+- 각 레이어마다 적절한 $\alpha$를 학습할 수 있습니다.
 
 ## 7. ELU 함수 (Exponential Linear Unit function ; ELU)
 
 ELU는 함수는 다음과 같이 정의됩니다.
 
-$f(x) = x \\quad \\quad \quad if \ x > 0$  
-$f(x) = \alpha (e^x − 1) \quad if \ x \geq 0$
+$f(x) = x \\quad \\quad \\quad \\quad \ \ if \ x \geq 0$  
+$f(x) = \alpha (e^x − 1) \quad if \ x < 0$
 
 **이때 $\alpha$는 사용자가 설정하는 하이퍼파라미터입니다. (일반적으로 $\alpha=1$)**
 
@@ -190,9 +190,6 @@ $f(x) = \alpha (e^x − 1) \quad if \ x \geq 0$
 - 출력값의 중심이 거의 0에 가깝습니다. (zero-centered)
 
 ### 의의
-- 시그모이드 함수와 하이퍼볼릭탄젠트 함수에 비해 학습 속도가 빠릅니다.
-- 연산 비용이 크지 않습니다.
-- 구현이 간단합니다.
 - Dying ReLU 문제를 해결합니다.
 
 ### 한계
@@ -205,22 +202,20 @@ Maxout 함수는 다음과 같이 정의됩니다.
 $f(x) = \max( w_1^T x + b_1, w_2^T x + b_2)$
 
 ### 의의
-- 시그모이드 함수와 하이퍼볼릭탄젠트 함수에 비해 학습 속도가 빠릅니다.
-- 연산 비용이 크지 않습니다.
-- 구현이 간단합니다.
 - Dying ReLU 문제를 해결합니다.
 
 ### 한계
 - 연산 비용이 큽니다.
+    - 파라미터의 개수가 두배로 증가하기 때문입니다.
 
 ## 정리
 
 - 활성화 함수로 비선형 함수를 사용합니다.
-- ReLU 함수 >>> ReLU 계열 함수(leaky ReLU, PReLU, ELU 등) >>> 하이퍼볼릭탄젠트 함수 순으로 시도합니다.
+- ReLU 함수 > ReLU 계열 함수(leaky ReLU, PReLU, ELU 등) > 하이퍼볼릭탄젠트 함수 순으로 시도합니다.
 - 시그모이드 함수는 사용하지 않습니다.
 
 ## 참고자료
 
-[cs231n](http://cs231n.stanford.edu)
+[cs231n](http://cs231n.stanford.edu)  
 [PyTorch로 시작하는 딥 러닝 입문](https://wikidocs.net/book/2788)
 
