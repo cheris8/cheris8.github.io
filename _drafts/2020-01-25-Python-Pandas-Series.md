@@ -8,37 +8,37 @@ One-dimensional ndarray with axis labels (including time series).
 Attributes
 Axes
 
-Series.index
+`Series.index`
 The index (axis labels) of the Series.
-Series.array
+`Series.array`
 The ExtensionArray of the data backing this Series or Index.
-Series.values
+`Series.values`
 Return Series as ndarray or ndarray-like depending on the dtype.
-Series.dtype
+`Series.dtype`
 Return the dtype object of the underlying data.
-Series.shape
+`Series.shape`
 Return a tuple of the shape of the underlying data.
-Series.nbytes
+`Series.nbytes`
 Return the number of bytes in the underlying data.
-Series.ndim
+`Series.ndim`
 Number of dimensions of the underlying data, by definition 1.
-Series.size
+`Series.size`
 Return the number of elements in the underlying data.
-Series.T
+`Series.T`
 Return the transpose, which is by definition self.
-Series.memory_usage([index, deep])
+`Series.memory_usage([index, deep])`
 Return the memory usage of the Series.
-Series.hasnans
+`Series.hasnans`
 Return if I have any nans; enables various perf speedups.
-Series.empty
+`Series.empty`
 Indicator whether DataFrame is empty.
-Series.dtypes
+`Series.dtypes`
 Return the dtype object of the underlying data.
-Series.name
+`Series.name`
 Return the name of the Series.
-Series.flags
+`Series.flags`
 Get the properties associated with this pandas object.
-Series.set_flags(*[, copy, …])
+`Series.set_flags(*[, copy, …])`
 Return a new object with updated flags.
 Conversion
 Series.astype(dtype[, copy, errors])

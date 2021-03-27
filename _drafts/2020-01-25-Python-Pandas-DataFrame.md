@@ -55,8 +55,6 @@ castedsame type as caller
 - `df.tail(n)` : 아래에서부터 n개의 행을 반환
 
 
-
-
 - `df.apply()`
 - `df.agg()`
 - `df.aggregate()`
@@ -83,38 +81,38 @@ castedsame type as caller
 
 
 ---
-- df.drop
+- `df.drop(labels=None, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise')`
+  - `axis=0` : 행
+  - `axis=1` : 열
 
-DataFrame.drop(labels=None, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise')[source]
+DataFrame.drop(labels=None, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise')
 Drop specified labels from rows or columns.
 
 Remove rows or columns by specifying label names and corresponding axis, or by specifying directly index or column names. When using a multi-index, labels on different levels can be removed by specifying the level.
 
+: 행 또는 열을 제거
 
 ### df.reaname
 
-- `df.reset_index(level=None, drop=False, inplace=False, col_level=0, col_fill='')`
+- `df.reset_index(level=None, drop=False, inplace=False, col_level=0, col_fill='')` : 인덱스 재설정
 Reset the index, or a level of it.
 
 Reset the index of the DataFrame, and use the default one instead. If the DataFrame has a MultiIndex, this method can remove one or more levels.
 
 
-- `df.set_index(keys, drop=True, append=False, inplace=False, verify_integrity=False)` : 
+- `df.set_index(keys, drop=True, append=False, inplace=False, verify_integrity=False)` : 인덱스 설정
 
-Set the DataFrame index using existing columns.
-
-Set the DataFrame index (row labels) using one or more existing columns or arrays (of the correct length). The index can replace the existing index or expand on it.
 ## 결측치 관련
 
 - `df.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)` : 결측치 제거
 - `df.fillna(value=None, method=None, axis=None, inplace=False, limit=None, downcast=None)` : 결측치 대체
 
-- `df.isna`
-- `df.isnull`
-- `df.notna`
-- `df.notnll`
-- `df.pad`
-- `df.replace`
+- `df.isna()`
+- `df.isnull()`
+- `df.notna()`
+- `df.notnll()`
+- `df.pad()`
+- `df.replace()`
 
 
 ### df.pivot
@@ -132,7 +130,5 @@ Set the DataFrame index (row labels) using one or more existing columns or array
 
 ## 저장
 
-
-### df.to_pickle
-
-### df.to_csv
+- `df.to_pickle()`
+- `df.to_csv()`

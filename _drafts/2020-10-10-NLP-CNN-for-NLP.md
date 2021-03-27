@@ -1,13 +1,10 @@
 ---
-title: '[자연어처리] CNN for NLP'
+title: '[NLP] CNN for NLP'
 
 categories:
-  - Natural Language Processing
-tags:
-  - Text Preprocessing
-  - Text Mining
-  - Natural Language Processing
   - Deep Learning
+tags:
+  - Natural Language Processing
 
 last_modified_at: 2020-10-06T08:06:00-05:00
 
@@ -29,8 +26,6 @@ Often capture too much of last words in final vector
 E.g., softmax is often only calculated at the last step
 
 ## 2. CNN for NLP 개념
-
-
 
 Main CNN/ConvNet idea:
 • What if we compute vectors for every possible word subsequence of a certain length?
@@ -61,7 +56,7 @@ matrix 즉 input은 10 x 100 크기를 가짐
 
 - Input representation : 원-핫 벡터 혹은 임베딩 벡터 (Word2Vec, GloVe 등)
 - Padding
-- Filter(=kernel) size
+- Filter size = Kernel size
 - Stride size
 - Pooling 
 - Channels
@@ -75,7 +70,7 @@ padding은 input의 가장자리에 특정 값을 갖는 행과 열을 추가해
 
 padding을 사용하는 이유는 크게 두가지가 있습니다. 먼저, padding을 통해 **모든 matrix의 모든 요소에 대해 convolution을 수행할 수 있게 됩니다.** 또한, padding을 하면 **input size와 동일한 혹은 좀 더 큰 output size를 얻을 수 있습니다.**
 
-$ n_{out} = \left( n_{in} + 2 \times n_{padding} − n_{filter} \right) + 1 $
+$n_{out} = \left( n_{in} + 2 \times n_{padding} − n_{filter} \right) + 1$
 
 padding을 사용하지 않은 것을 narrow convolution, padding을 사용한 것을 wide convolution이라고 합니다. 이를 그림으로 나타내면 아래와 같습니다.
 
