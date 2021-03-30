@@ -4,7 +4,6 @@ title: '[데이터 크롤링] 정적 웹 페이지 크롤링 with Python'
 categories:
   - Data Analysis
 tags:
-  - Data Analysis
   - Data Crawling
 
 last_modified_at: 2021-03-12T08:06:00-05:00

@@ -4,7 +4,6 @@ title: '[데이터 크롤링] 위키피디아 표 데이터 크롤링 하기'
 categories:
   - Data Analysis
 tags:
-  - Data Analysis
   - Data Crawling
 
 last_modified_at: 2021-03-10T08:06:00-05:00
