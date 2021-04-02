@@ -27,7 +27,7 @@ classes: wide
 ls = [['A', 'B'], ['C', 'D'], ['E', 'F']]
 ```
 
-### 1. list Comprehension 사용하기
+### 1. list comprehension 사용하기
 
 ```python
 [el for ar in ls for el in ar]
