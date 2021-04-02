@@ -21,8 +21,8 @@ classes: wide
 ![]({{site.url}}/assets/images/PY/stack.png)
 
 - 스택은 LIFO 또는 FILO 데이터 관리 방식을 따릅니다.
-    - LIFO (Last In First Out) : 가장 나중에 넣은 데이터를 가장 먼저 꺼내는 데이터 관리 정책
-    - FILO (First In Last Out) : 가장 먼저 넣은 데이터를 가장 나중에 꺼내는 데이터 관리 정책
+    - LIFO(Last In First Out) : 가장 나중에 넣은 데이터를 가장 먼저 꺼내는 데이터 관리 정책
+    - FILO(First In Last Out) : 가장 먼저 넣은 데이터를 가장 나중에 꺼내는 데이터 관리 정책
 - 스택은 한쪽 끝에서만 데이터를 넣거나 뺄 수 있어 데이터에 제한적으로 접근할 수 있는 구조를 가집니다.
     - 즉 스택의 맨 위에서만 데이터의 추가 및 삭제가 이루어집니다.
 
@@ -38,7 +38,7 @@ classes: wide
     - 데이터를 읽고 저장하는 속도가 빠릅니다.
 - 단점
     - 데이터를 탐색하기 어렵습니다.
-    - 데이터의 최대 개수를 미리 정해야 합니다.
+    - 미리 데이터의 최대 개수를 지정해야 합니다.
     - 저장 공간의 낭비가 발생할 수 있습니다.
         - 미리 데이터의 최대 개수만큼 저장 공간을 확보해야 하기 때문입니다.
 
@@ -53,7 +53,7 @@ classes: wide
 - `isContain()` : 스택에 해당 값이 포함되어 있는지 여부를 반환
     - 스택에 해당 값이 포함되어 있으면 `True`, 포함되어 있지 않으면 `False` 반환
 
-## Implementation
+## Implementation with Python
 
 ```python
 class Stack:
