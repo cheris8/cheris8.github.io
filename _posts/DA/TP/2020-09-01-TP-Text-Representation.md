@@ -25,22 +25,17 @@ classes: wide
 
 ![]({{site.url}}/assets/images/DA/TP/wordrepresentation.PNG)
 
-**Local Representation**
+### Local Representation
 
 - [One-Hot Vector]({{site.url}}/data%20analysis/TP-Encoding/) : Local Representation
 - N-gram : Local Representation
-​
-
 - BoW : Local Representation, Count based
 - DTM : Local Representation, Count based
 
+### Continuous Representation
 
-**Continuous Representation**
-​
 - LSA : Continuous Representation, Count based
-
 - Embedding Vector : Continuous Representation
-https://cheris8.github.io/
     - [Word2Vec]({{site.url}}/​deep%20learning/NLP-WordEmbedding-Word2Vec/) : Continuous Representation, Prediction based
     - FastText : Continuous Representation, Prediction based
     - GloVe : Continuous Representation, Count based + Prediction based
