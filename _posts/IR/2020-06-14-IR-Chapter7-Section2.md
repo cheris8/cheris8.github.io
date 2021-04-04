@@ -1,5 +1,5 @@
 ---
-title: '[정보검색] 제7장2절 정보검색 모형 - ad hoc 검색 & 라우팅/필터링'
+title: '[정보검색] 제7장 정보검색 모형 - 제2절 ad hoc 검색 & 라우팅/필터링'
 
 categories:
   - Informatoin Retrieval
