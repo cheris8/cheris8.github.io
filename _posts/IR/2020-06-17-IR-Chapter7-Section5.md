@@ -1,5 +1,5 @@
 ---
-title: '[정보검색] 제7장5절 정보검색 모형 - 확장 불리언 검색'
+title: '[정보검색] 제7장 정보검색 모형 - 제5절 확장 불리언 검색'
 
 categories:
   - Informatoin Retrieval
