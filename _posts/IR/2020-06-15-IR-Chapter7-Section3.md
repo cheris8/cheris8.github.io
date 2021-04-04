@@ -6,7 +6,7 @@ categories:
 tags:
   - Informatoin Retrieval
 
-last_modified_at: 2020-06-01T08:06:00-05:00
+last_modified_at: 2020-06-15T08:06:00-05:00
 
 classes: wide
 ---
@@ -14,6 +14,7 @@ classes: wide
 이 글은 정영미 교수님의 [정보검색연구](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=17330455)를 바탕으로 연세대학교 문성빈 교수님의 수업을 공부한 기록입니다.
 
 ## 불리언 검색 개념
+
 - 불 대수(Boolean Algebra)를 이용하여 질의를 만족시키는 문헌들을 검색하는 기법
 - 불리언 검색문
     - 불리언 검색에서 사용하는 질의
@@ -22,27 +23,13 @@ classes: wide
     - 검색어들 간의 관계를 표현
     - AND, OR, NOT
 
-## 도치색인 / 역색인 (Inverted Index)
+## 도치색인 = 역색인 (Inverted Index)
+
 - 불리언 검색에서는 도치색인/역색인을 사용하여 불리언 검색문을 처리
 - 도치색인은 사전파일과 문헌번호파일로 구성
-- 도치색인 구조
-
-사전파일 (Dictionary File)
-|색인어|DF|IDF|포인터|
-|----|--|---|-----|
-|ABILITY|3|2.52|	
-|ABNORMAL|27|1.57	
-|ABSENCE	…	…	
-|ABSTRACTS	…	…	
-|...|			
-
-	문헌번호파일 (Postings File)
-문헌번호	TF	단어번호	포인터
-			
-5	2	3 20	
-27	11	15 25 …	
-42	5	…	
-			
+<!--
+![]({{site.url}}/assets/images/IR-Ch5-1.PNG)
+-->		
 - 문헌번호파일에 수록된 단어번호는 검색어들이 인접해서 출현한 경우에만 검색하도록 하는 인접검색(Proximity Searching)을 가능하도록 O
     - Proximity Operator : WITH / SAME / ADJ
     - A with B : 같은 문단에 출현한 경우
