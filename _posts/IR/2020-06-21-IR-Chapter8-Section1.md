@@ -6,7 +6,7 @@ categories:
 tags:
   - Informatoin Retrieval
 
-last_modified_at: 2020-06-20T08:06:00-05:00
+last_modified_at: 2020-06-21T08:06:00-05:00
 
 classes: wide
 use_math: true
