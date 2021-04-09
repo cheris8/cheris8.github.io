@@ -1,5 +1,5 @@
 ---
-title: '[정보검색] 제8장 검색 성능 향상 전략 - 제2절 효과적인 질의 작성'
+title: '[정보검색] 제8장 검색 성능 향상 전략 - 제3절 질의확장'
 
 categories:
   - Informatoin Retrieval
