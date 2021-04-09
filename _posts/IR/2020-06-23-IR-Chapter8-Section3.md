@@ -127,7 +127,7 @@ use_math: true
 ### 적합성 피드백에 의한 질의확장 공식
 
 - 적합성 피드백에 의한 질의확장은 벡터공간 검색에서 가장 많이 논의
--  표준 로치오(standard Rocchio) 공식
+- 표준 로치오(standard Rocchio) 공식
 - $Q' = \alpha \times Q + \beta \times \frac{1}{n_1} \sum_{i=1}^{n_1} R_i - \gamma \times \frac{1}{n_2} \sum_{i=1}^{n_2} S_i$
   - $Q$: 초기 질의 벡터
   - $Q'$ : 수정 질의 벡터
