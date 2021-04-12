@@ -1,5 +1,5 @@
 ---
-title: '[정보검색] 제2장 색인 및 시소러스 - 인용색인 (Citation Index)'
+title: '[정보검색] 제2장 색인 및 시소러스 - 제2절 인용색인'
 
 categories:
   - Informatoin Retrieval

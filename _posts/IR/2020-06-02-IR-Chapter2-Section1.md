@@ -1,5 +1,5 @@
 ---
-title: '[정보검색] 제2장 색인 및 시소러스 - 색인 (Indexing)'
+title: '[정보검색] 제2장 색인 및 시소러스 - 제1절 색인 개요'
 
 categories:
   - Informatoin Retrieval
