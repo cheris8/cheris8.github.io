@@ -22,7 +22,7 @@ classes: wide
 
 - `df.duplicated(subset=['COLUMN1', 'COLUMN2', ...], keep={‘first’, ‘last’, False})` : 중복 행을 나타내는 불리언 Series 반환
   - `subset=['COLUMN1', 'COLUMN2', ...]` : `COLUMN1`, `COLUMN2`, ...를 기준으로 중복 행을 확인
-  - `keep{‘first’, ‘last’, False}` : 어떤 중복을 표시할 것인지를 결정
+  - `keep={‘first’, ‘last’, False}` : 어떤 중복을 표시할 것인지를 결정
     - `keep=first` : 처음에 발생한 중복을 제외한 나머지 중복을 `True`로 표시 (default)
     - `keep=last` : 마지막에 발생한 중복을 제외한 나머지 중복을 `False`로 표시
     - `keep=False` : 모든 중복을 True로 표시
@@ -31,7 +31,7 @@ classes: wide
 
 - `df.drop_duplicates(subset=['COLUMN1', 'COLUMN2', ...], keep={'first', 'last', False}, inplace={True, False})` : 중복 행이 제거된 데이터프레임 반환
   - `subset=['COLUMN1', 'COLUMN2', ...]` : `COLUMN1`, `COLUMN2`, ...을 기준으로 중복 행을 확인
-  - `keep{‘first’, ‘last’, False}, default ‘first’` : 어떤 중복을 남길 것인지를 결정
+  - `keep={‘first’, ‘last’, False}, default ‘first’` : 어떤 중복을 남길 것인지를 결정
     - `keep=first` : 처음에 발생한 중복을 제외하고 중복 제거 (default)
     - `keep=last` : 마지막에 발생한 중복을 제외하고 중복 제거
     - `keep=False` : 모든 중복을 제거
