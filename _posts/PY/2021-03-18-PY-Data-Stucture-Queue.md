@@ -30,6 +30,7 @@ classes: wide
 - 선형 큐 (Linear Queue)
 - 환형 큐 (Circular Queue)
 - 우선순위 큐 (Priority Queue)
+
 <!--
 ### 1. 선형 큐 (Linear Queue)
 ### 2. 원형 큐 (Circular Queue)
@@ -118,7 +119,6 @@ class DequeQueue(deque):
 ### 3. `queue` 모듈의 `Queue` 사용하기
 
 `queue` 모듈의 `Queue` 객체는 다음과 같은 메서드를 갖습니다.
-
 - `queue.qsize()` : `queue`의 크기 반환
 - `queue.empty()` : `queue`가 비어 있으면 `True`, 비어 있지 않으면 `False` 반환
 - `queue.full()` : `queue`가 꽉 차 있으면 `True`, 꽉 차 있지 않으면 `False` 반환
