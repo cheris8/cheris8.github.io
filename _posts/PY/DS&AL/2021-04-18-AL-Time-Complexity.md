@@ -51,8 +51,6 @@ use_math: true
 - $O(C^n)$ : 지수 시간
   - 알고리즘이 문제를 해결하는 데에 필요한 단계의 수가 주어진 상수값 $C$의 $n$제곱인 경우
 
-<br>
-
 |Complexity   |1|10|100|
 |-------------|-|--|---|
 |$O(1)$       |1|1 |1|
@@ -93,5 +91,5 @@ use_math: true
 
 ## 참고자료
 
-[Algorithms in plain English: time complexity and Big-O notation](https://www.freecodecamp.org/news/time-is-complex-but-priceless-f0abd015063c/#.j7h5s1m2p)
+[Algorithms in plain English: time complexity and Big-O notation](https://www.freecodecamp.org/news/time-is-complex-but-priceless-f0abd015063c/#.j7h5s1m2p)  
 [알고리즘의 시간 복잡도와 Big-O 쉽게 이해하기](https://blog.chulgil.me/algorithm/)
