@@ -1,5 +1,5 @@
 ---
-title: '[자료구조] 자료구조 (Data Structure) 개념 및 종류'
+title: '[자료구조] 자료구조 (Data Structure) 개요'
 
 categories:
   - Python

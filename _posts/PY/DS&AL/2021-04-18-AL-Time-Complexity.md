@@ -21,17 +21,17 @@ use_math: true
   - 점근적 표기법이란 중요하지 않은 상수와 계수들을 제거하여 알고리즘의 실행시간에서 중요한 성장률에 집중하는 방법을 의미합니다.
   - 즉, 점근적이라는 의미는 가장 큰 영향을 주는 항만 계산한다는 의미입니다.
 - 점근적 표기법에는 다음과 같은 세가지 종류가 존재합니다.
-  - 오메가 표기법 (Big-$\mathbf{\Omega}$ Notation)
-  - 세타 표기법 (Big-$\mathbf{\theta}$ Notation)
-  - 빅오 표기법 (Big-$\mathbf{O}$ Notation)
+  - 오메가 표기법 (Big-$\Omega$ Notation)
+  - 세타 표기법 (Big-$\theta$ Notation)
+  - 빅오 표기법 (Big-$O$ Notation)
 
 ## 빅오 표기법 (Big-O Notation)
 
 > Big-O notation is a way of converting the overall steps of an algorithm into algebraic terms, then excluding lower order constants and coefficients that don’t have that big an impact on the overall complexity of the problem.
 
 - 빅오표기법은 알고리즘의 시간 복잡도와 공간 복잡도를 나타내는 데에 사용됩니다.
-  - 시간 복잡도는 입력된 $n$의 크기에 따라 실행되는 조작의 수를 나타냅니다.
-  - 공간 복잡도는 알고리즘이 실행될 때 사용하는 메모리의 양을 나타냅니다.
+  - 시간 복잡도는 입력 데이터의 개수에 따라 실행되는 알고리즘의 단계의 수를 의미합니다.
+  - 공간 복잡도는 알고리즘이 실행될 때 사용하는 메모리의 양을 의미합니다.
 
 ### 대표적인 빅오 표기법 (Big-O Notation)
 
@@ -63,6 +63,8 @@ use_math: true
 
 ### 정렬 알고리즘 별 Big-O 비교
 
+<br>
+
 |Sorting Algorithm|최선|평균|최악|
 |--------------|-------------|---------------|--------------|
 |Bubble Sort   |$O(n)$       |$O(n^2)$       |$O(n^2)$      |
@@ -75,6 +77,8 @@ use_math: true
 |Smooth Sort   |$O(n)$       |$O(n \log n)$  |$O(n \log n)$  |
 
 ### 자료구조 별 Big-O 비교
+
+<br>
 
 |Data Structure|Search (Average)|Insert (Average)|Delete (Average)|Search (Worst)|Insert (Worst)|Delete (Worst)|
 |------------------|-----------|-----------|-----------|-----------|-----------|-----------|
