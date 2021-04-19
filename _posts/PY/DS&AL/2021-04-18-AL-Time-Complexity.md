@@ -1,10 +1,9 @@
 ---
-title: '[Python] 알고리즘의 시간 복잡도 (Time Complexity) - 빅오 표기법 (Big-O Notation)'
+title: '[알고리즘] 시간 복잡도 (Time Complexity) - 빅오 표기법 (Big-O Notation)'
 
 categories:
   - Python
 tags:
-  - Python
   - Algorithm
 
 last_modified_at: 2021-04-18T08:06:00-05:00
@@ -25,8 +24,6 @@ use_math: true
   - 오메가 표기법 (Big-$\mathbf{\Omega}$ Notation)
   - 세타 표기법 (Big-$\mathbf{\theta}$ Notation)
   - 빅오 표기법 (Big-$\mathbf{O}$ Notation)
-
-빅오표기법에서는가장차수가높은 항(Term)만을 표시함.
 
 ## 빅오 표기법 (Big-O Notation)
 
