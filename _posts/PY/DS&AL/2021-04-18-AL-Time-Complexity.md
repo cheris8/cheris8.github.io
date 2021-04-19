@@ -33,7 +33,7 @@ use_math: true
   - 시간 복잡도는 입력 데이터의 개수에 따라 실행되는 알고리즘의 단계의 수를 의미합니다.
   - 공간 복잡도는 알고리즘이 실행될 때 사용하는 메모리의 양을 의미합니다.
 
-### 대표적인 빅오 표기법 (Big-O Notation)
+### 대표적인 Big-O
 
 - $O(1)$ : 상수 시간
   - 알고리즘이 문제를 해결하는 데에 필요한 단계의 수가 오직 한 단계인 경우
@@ -51,6 +51,8 @@ use_math: true
 - $O(C^n)$ : 지수 시간
   - 알고리즘이 문제를 해결하는 데에 필요한 단계의 수가 주어진 상수값 $C$의 $n$제곱인 경우
 
+<br>
+
 |Complexity   |1|10|100|
 |-------------|-|--|---|
 |$O(1)$       |1|1 |1|
@@ -62,8 +64,6 @@ use_math: true
 |$O(n!)$      |1|3628800|화면에 표시 불가|
 
 ### 정렬 알고리즘 별 Big-O 비교
-
-<br>
 
 |Sorting Algorithm|최선|평균|최악|
 |--------------|-------------|---------------|--------------|
@@ -78,8 +78,6 @@ use_math: true
 
 ### 자료구조 별 Big-O 비교
 
-<br>
-
 |Data Structure|Search (Average)|Insert (Average)|Delete (Average)|Search (Worst)|Insert (Worst)|Delete (Worst)|
 |------------------|-----------|-----------|-----------|-----------|-----------|-----------|
 |Sorted Array      |$O(\log n)$|$O(n)$     |$O(n)$     |$O(\log n)$|$O(n)$     |$O(n)$     |
@@ -92,3 +90,8 @@ use_math: true
 |B-Tree            |$O(\log n)$|$O(\log n)$|$O(\log n)$|$O(\log n)$|$O(\log n)$|$O(\log n)$|
 |Red-Black Tree    |$O(\log n)$|$O(\log n)$|$O(\log n)$|$O(\log n)$|$O(\log n)$|$O(\log n)$|
 |AVL Tree          |$O(\log n)$|$O(\log n)$|$O(\log n)$|$O(\log n)$|$O(\log n)$|$O(\log n)$|
+
+## 참고자료
+
+[Algorithms in plain English: time complexity and Big-O notation](https://www.freecodecamp.org/news/time-is-complex-but-priceless-f0abd015063c/#.j7h5s1m2p)
+[알고리즘의 시간 복잡도와 Big-O 쉽게 이해하기](https://blog.chulgil.me/algorithm/)
