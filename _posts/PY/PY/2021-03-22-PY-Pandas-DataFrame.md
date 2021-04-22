@@ -34,8 +34,8 @@ classes: wide
 
 - `df.values` : 데이터프레임에 대한 numpy 표현 즉 array 반환
 
-- `df.iloc` : Purely integer-location based indexing for selection by position.
-- `df.loc` : Access a group of rows and columns by label(s) or a boolean array.
+- `df.iloc` : 위치를 나타내는 integer를 통해 데이터 프레임 인덱싱
+- `df.loc` : Access a group of rows and columns by label(s) or a boolean array. label 혹은 boolean array를 통해 데이터프레임 인덱싱
 
 ## Methods
 
@@ -43,25 +43,9 @@ classes: wide
 
 - `df.head(n)` : 위에서부터 n개의 행을 반환
 - `df.tail(n)` : 아래에서부터 n개의 행을 반환
-- `df.info()` : 데이터프레임에 대한 간결한 요약 출력 - index, dtype, columns, non-null values, memory usage
+- `df.info()` : 데이터프레임에 대한 간결한 요약 출력
 - `df.nunique()` : 데이터프레임 내 unique한 값들의 개수 반환
 - `df.unique()` : 데이터프레임 내 unique한 값들 반환
-
-- `df.sort_values(by, axis={0, 1}, ascending={True, False}, inplace={True, False},  key=None)` : 데이터프레임 정렬
-  - `by` : Name or list of names to sort by.
-  - `axis=0` / `axis=index` 일 때 `by` : index levels 혹은 column labels
-  - `axis=1` / `axis=columns` 일 때 `by` : column levels 혹은 index labels
-  - `ascending=True` : 오름차순 정렬 (default)
-  - `ascending=False` : 내림차순 정렬
-
-- `df.value_counts()`
-
-- `df.replace()`
-
-- `df.apply()`
-- `df.agg()`
-- `df.aggregate()`
-- `df.grooupby()`
 
 - `df.describe()` : 기초통계량
 - `df.max()` : 최대값
@@ -71,6 +55,21 @@ classes: wide
 
 - `df.pivot()`
 - `df.pivot_table()`
+
+- `df.apply()`
+- `df.agg()`
+- `df.aggregate()`
+- `df.grooupby()`
+
+- `df.replace()`
+
+- `df.sort_values(by, axis={0, 1}, ascending={True, False}, inplace={True, False})` : 데이터프레임 정렬
+  - `axis=0` / `axis=index` 일 때 `by` : index levels 혹은 column labels
+  - `axis=1` / `axis=columns` 일 때 `by` : column levels 혹은 index labels
+  - `ascending=True` : 오름차순 정렬 (default)
+  - `ascending=False` : 내림차순 정렬
+
+- `df.value_counts()`
 
 - `df.isna()` : 결측치 확인
 - `df.isnull()` : 결측치 확인
@@ -87,8 +86,10 @@ classes: wide
   - `labels=[COL1, COL2, ... ], axis=1` / `columns=[COL1, COL2, ...]` : 열 제거
 
 - `df.rename(mapper=None, index=None, columns=None, axis={0, 1}, inplace={True, False})` : 축 이름 변경
-  - `mapper={OLD1:NEW1, OLD2:NEW2, ...}, axis=0` / `index={OLD1:NEW1, OLD2:NEW2, ...}` : 인덱스(row label) 변경
-  - `mapper={OLD1:NEW1, OLD2:NEW2, ...}, axis=1` / `columns={OLD1:NEW1, OLD2:NEW2, ...}` : 컬럼명(column label) 변경
+  - `mapper={OLD1:NEW1, OLD2:NEW2, ...}, axis=0` : 인덱스(row label) 변경
+  - `index={OLD1:NEW1, OLD2:NEW2, ...}` : 인덱스(row label) 변경
+  - `mapper={OLD1:NEW1, OLD2:NEW2, ...}, axis=1` : 컬럼명(column label) 변경
+  - `columns={OLD1:NEW1, OLD2:NEW2, ...}` : 컬럼명(column label) 변경
 
 - `df.reset_index(drop=False, inplace=False)` : 인덱스 재설정
 - `df.set_index(keys, drop=True, append=False, inplace=False)` : 인덱스 설정
