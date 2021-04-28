@@ -1,7 +1,6 @@
 
 ## 기본 자료형
 
-
 - 정수형(integer type) : 자연수를 포함해 값의 영역이 정수로 한정된 값.
 - 실수형(floating-point type) : 소수점이 포함된 값.
 - 문자형(string type) : 값이 문자로 출력되는 자료형.

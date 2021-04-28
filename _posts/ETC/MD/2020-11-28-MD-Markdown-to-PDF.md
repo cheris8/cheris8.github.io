@@ -18,8 +18,9 @@ classes: wide
 `pandoc`은 마크다운을 다양한 포맷으로 변환해주는 프로그램입니다. 맥OS에서는 아래의 명령어를 통해 설치할 수 있습니다.
 
 ```bash
-# homebrew를 통해 pandoc 설치
+# homebrew를 통해 pandoc 과 fontconfig 설치
 brew install pandoc
+brew install config
 ```
 
 `pandoc`에서 제공하는 옵션은 다음과 같습니다.
