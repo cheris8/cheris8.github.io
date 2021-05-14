@@ -6,15 +6,14 @@ categories:
 tags:
   - Data Preprocessing
 
-last_modified_at: 2021-01-20T08:06:00-05:00
+last_modified_at: 2021-05-13T08:06:00-05:00
 
 classes: wide
 ---
 
-이 글은 데이터 스케일링에 관한 기록입니다.
+이 글은 데이터 스케일링(Data Scaling)에 관한 기록입니다.
 
 ## 스케일링 개념
-
 
 데이터를 모델링하기 전에는 반드시 스케일링 과정을 거쳐야 한다. 스케일링을 통해 다차원의 값들을 비교 분석하기 쉽게 만들어주며, 자료의 오버플로우(overflow)나 언더플로우(underflow)를 방지 하고, 독립 변수의 공분산 행렬의 조건수(condition number)를 감소시켜 최적화 과정에서의 안정성 및 수렴 속도를 향상 시킨다.
 
@@ -43,8 +42,12 @@ classes: wide
 
 `scikit-learn`에서는 스케일링을 수행하는 다양한 스케일러를 제공합니다. 이때 모든 스케일러는 다음과 같은 메서드를 갖습니다.
 
-- `SCALER.fit()` : 데이터 변환을 학습, train셋에 대해서만 적용
-- `SCALER.transform()` : 실제로 데이터 변환을 수행, train셋과 test셋 모두에 대해서 적용
+- `SCALER.fit()`
+  - 데이터 변환을 학습
+  - train셋에 대해서만 적용
+- `SCALER.transform()`
+  - 실제로 데이터 변환을 수행
+  - train셋과 test셋 모두에 대해서 적용
 
 ## 스케일링 종류
 
@@ -63,52 +66,42 @@ classes: wide
 ![]({{site.url}}/assets/images/DA/DP/scaling-ex4.PNG)
 ![]({{site.url}}/assets/images/DA/DP/scaling-ex5.PNG)
 
-### MinMaxScaler
-
-MinMaxScaler 최대/최소값이 각각 1, 0이 되도록 스케일링
+### `MinMaxScaler`
 
 - Transform features by scaling each feature to a given range.
-- 주어진 range로 각각의 feature들을 스케일링 함으로써 feature들을 transform
-- default는 0, 1입니다.
+- 주어진 range로 각각의 feature들을 스케일링 함으로써 feature들을 transform 합니다.
 
-- 모든 feature들의 값이 0과 1 사이에 있도록 데이터를 변환합니다.
-- 모든 feature들을 최소값=0, 최대값은 1이 되도록 스케일링 합니다.
+- 데이터가 0과 1 사이에 위치하도록 스케일링 합니다.
+- 최소값 = 0, 최대값 = 1이 되도록 스케일링 합니다. (default)
 
-- 데이터를 0-1사이의 값으로 변환
 - (x - x의 최소값) / (x의 최대값 - x의 최소값)
 - 데이터의 최소값과 최대값을 알 때 사용합니다.
 
-- 다만 이상치가 있는 경우 변환된 값이 매우 좁은 범위로 압축될 수 있다. 즉, MinMaxScaler 역시 아웃라이어의 존재에 매우 민감하다.
 - 이상치가 있는 경우 변환된 값이 매우 좁은 범위로 압축될 수 있습니다. MinMax 역시 이상치(Outlier)의 존재에 민감합니다.
-
-MaxAbs Scaler라는 것도 있는데, 최대 절대값과 0이 각 1, 0이 되도록 하여 양수 데이터로만 구성되게 스케일링 하는 기법입니다.
 
 ```python
 from sklearn.preprocessing import MinMaxScaler
 
-# standard scaler 선언 및 학습
+# minmax scaler 선언 및 학습
 minmaxScaler = MinMaxScaler().fit(X_train)
 
-# train feature를 standard scaling
+# train셋 내 feature들에 대하여 minmax scaling 수행
 X_train_minmax = minmaxScaler.transform(X_train) 
 
-# standard scaling 변환
+# test셋 내 feature들에 대하여 minmax scaling 수행
 X_test_minmax = minmaxScaler.transform(X_test) 
 ```
 
-### 3. MaxAbsScaler
+### `MaxAbsScaler`
 
-- 
 - Scale each feature by its maximum absolute value.
-- 각 feature의 쵀대값의 절대값으로 스케일링
+- `MaxAbsScaler`는 각 feature의 최대값의 절대값으로 스케일링 합니다.
+- 데이터가 -1과 1 사이에 위치하도록 스케일링 합니다.
+- 데이터의 절대값이 0~1사이에 매핑되도록 한다.
+- 최대값의 절대값 = 1, 최소값 = 0이 되도록 스케일링 합니다.
 
-
-- 절대값이 0~1사이에 매핑되도록 한다. 즉 -1~1 사이로 재조정한다.
-- 최대절대값과 0이 각각 1, 0이 되도록 스케일링
-
-
-양수 데이터로만 구성된 특징 데이터셋에서는 MinMaxScaler와 유사하게 동작하며, 
 - 큰 이상치에 민감할 수 있습니다.
+- 양수 데이터로만 구성된 특징 데이터셋에서는 MinMaxScaler와 유사하게 동작합니다.
 
 
 ```python
@@ -126,21 +119,19 @@ X_test_maxabs = maxabsScaler.transform(X_test)
 
 ## `StandardScaler`
 
-StandardScaler 기본 스케일. 평균과 표준편차 사용
-- 데이터가 표준 정규 분포(standard normal distribution)를 따르도록 스케일링
-- 
 - Standardize features by removing the mean and scaling to unit variance
-- `StandardScaler()`는 평균을 제거하고 단위 분산(unit variance)으로 스케일링 함으로써 feature를 standardize합니다.
+- `StandardScaler`는 평균을 제거하고 단위 분산(unit variance)으로 스케일링 함으로써 feature를 standardize 합니다.
+- 데이터의 평균 = 0, 분산 = 1이 되도록, 즉 데이터가 표준 정규 분포(standard normal distribution)를 따르도록 스케일링 합니다.
+  - (x - x의 평균) / (x의 표준편차)
 
-- 기존 변수에 범위를 정규 분포로 변환
-- (x - x의 평균값) / (x의 표준편차)
-- 데이터의 최소, 최대 값을 모를 경우 사용
- 
-- 각 피처의 평균을 0, 분산을 1로 변경합니다.
-- 모든 특성들이 같은 스케일을 갖게 됩니다.
+### 특징
 
-- 그러나 이상치가 있다면 평균과 표준편차에 영향을 미쳐 변환된 데이터의 확산은 매우 달라지게 된다. 따라서 이상치가 있는 경우 균형 잡힌 척도를 보장할 수 없다.
-- 그러나 이상치가 있다면 평균과 표준편차에 영향을 미쳐 변환된 데이터의 확산은 매우 달라지게 됩니다. 따라서 이상치(Outlier)가 있는 경우 균형 잡힌 척도를 보장할 수 없게 됩니다.
+- 평균과 분산을 사용합니다.
+- 모든 feature들이 같은 스케일을 갖게 됩니다.
+- 데이터의 최소값과 최대값을 모를 때 사용합니다.
+
+- 그러나 이상치가 있다면 평균과 표준편차에 영향을 미쳐 변환된 데이터의 확산은 매우 달라지게 됩니다. 따라서 이상치(Outlier)가 있는 경우 균형 잡힌 척도를 보장할 수 없습니다.
+
 
 ```python
 from sklearn.preprocessing import StandardScaler
@@ -148,31 +139,25 @@ from sklearn.preprocessing import StandardScaler
 # standard scaler 선언 및 학습
 standardScaler = StandardScaler().fit(X_train)
 
-# standard scaling 변환
+# train셋 내 feature들에 대하여 standard scaling 수행
 X_train_standard = standardScaler.transform(X_train)
 
-# standard scaling 변환
-X_test_standard = standardScaler.transform(X_test) 
-
-# 스케일링 된 결과 값으로 본래 값을 구할 수도 있다.
-X_origin = std_scaler.inverse_transform(X_train_scaled)
+# test셋 내 feature들에 대하여 standard scaling 수행
+X_test_standard = standardScaler.transform(X_test)
 ```
 
 ### 4. RobustScaler
-- 중앙값(median)과 IQR(interquartile range)을 활용하여 스케일링
-- 각 특성들의 평균과 분산 대신 특성들의 중앙값을 0, IQE을 1로 스케일링한다
-- 
-아웃라이어의 영향을 최소화한 기법이다. 중앙값(median)과 IQR(interquartile range)을 사용하기 때문에 StandardScaler와 비교해보면 표준화 후 동일한 값을 더 넓게 분포 시키고 있음을 확인 할 수 있다.
 
-IQR = Q3 - Q1 : 즉, 25퍼센타일과 75퍼센타일의 값들을 다룬다.
+- Scale features using statistics that are robust to outliers.
+- `RobustScaler`는 이상치에 robust한 통계량을 사용하여 feature들을 스케일링 합니다.
+- 데이터의 중앙값 = 0, IQE = 1이 되도록 스케일링 합니다.
 
-아웃라이어를 포함하는 데이터의 표준화 결과는 아래와 같다. 
-
+- 중앙값(median)과 IQR(interquartile range)을 사용합니다.
+- 모든 feature들이 같은 스케일/크기를 갖게 됩니다. (Standard Scaler와의 공통점)
+- StandardScaler와 비교해보면 표준화 후 동일한 값을 더 넓게 분포 시키고 있음을 확인 할 수 있다.
 - StandardScaler에 의한 표준화보다 동일한 값을 더 넓게 분포
-- 이상치(outlier)를 포함하는 데이터를 표준화하는 경우
  
-모든 특성들이 같은 크기를 갖는다는 점에서 Standard Scaler와 비슷하지만, 평균과 분산 대신 Median과 IQR(interquartile range)을 사용하며, 이상치(Outlier)의 영향을 최소화 합니다. StandardScaler와 비교해보면 표준화 후 동일한 값을 더 넓게 분포 시키고 있음을 확인 할 수 있습니다.
-(IQR = Q3 - Q1 : 25% ~ 75% 타일의 값을 다룬다.)
+- 이상치의 영향을 최소화 합니다.
 
 ```python
 from sklearn.preprocessing import RobustScaler
@@ -180,19 +165,15 @@ from sklearn.preprocessing import RobustScaler
 # RobustScaler 선언 및 학습
 robustScaler = RobustScaler().fit(X_train)
 
-# RobustScaler를 사용하여 train셋 features 스케일링
+# train셋 내 feature들에 대하여 robust scaling 수행
 X_train_robust = robustScaler.transform(X_train)
 
-# RobustScaler를 사용하여 test셋 features 스케일링
+# test셋 내 feature들에 대하여 robust scaling 수행
 X_test_robust = robustScaler.transform(X_test)
 ```
 
-결론적으로 모든 스케일러 처리 전에는 아웃라이어 제거가 선행되어야 한다. 또한 데이터의 분포 특징에 따라 적절한 스케일러를 적용해주는 것이 좋다.
-
 ## 참고자료
 
-https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing
-
-https://mkjjo.github.io/python/2019/01/10/scaler.html
-
-https://ebbnflow.tistory.com/137
+[scikit-learn API Reference](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing)  
+[mkjjo님의 블로그](https://mkjjo.github.io/python/2019/01/10/scaler.html)
+[ebbnflow님의 블로그](https://ebbnflow.tistory.com/137)
