@@ -1,5 +1,5 @@
 ---
-title: '터미널 명령어'
+title: '[macOS] 터미널 명령어'
 
 categories:
   - Etc

@@ -1,5 +1,5 @@
 ---
-title: '[MacOS] XGBoost 설치'
+title: '[macOS] XGBoost 설치'
 
 categories:
   - Etc
@@ -11,7 +11,7 @@ last_modified_at: 2021-05-20T08:06:00-05:00
 classes: wide
 ---
 
-이 글은 MacOS Catalina에서 XGBoost를 설치하는 방법에 관한 기록입니다.
+이 글은 macOS Catalina에서 XGBoost를 설치하는 방법에 관한 기록입니다.
 
 ```bash
 kimchaehyeong@gimchaehyeong-ui-MacBookPro ~ % cd xgboost
