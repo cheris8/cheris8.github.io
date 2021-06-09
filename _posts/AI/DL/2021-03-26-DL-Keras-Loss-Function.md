@@ -2,7 +2,7 @@
 title: '[딥러닝] 케라스 손실 함수 (Loss Function)'
 
 categories:
-  - Deep Learning
+  - Artificial Intelligence
 tags:
   - Deep Learning
   - Keras

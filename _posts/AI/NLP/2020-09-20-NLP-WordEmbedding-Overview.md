@@ -2,9 +2,8 @@
 title: '[NLP] 워드 임베딩 (Word Embedding) 개요'
 
 categories:
-  - Deep Learning
+  - Artificial Intelligence
 tags:
-  - Deep Learning
   - Natural Language Processing
 
 last_modified_at: 2020-09-20T08:06:00-05:00

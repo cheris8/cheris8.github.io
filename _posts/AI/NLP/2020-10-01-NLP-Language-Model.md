@@ -2,9 +2,8 @@
 title: '[NLP] 언어 모델 (Language Model)'
 
 categories:
-  - Deep Learning
+  - Artificial Intelligence
 tags:
-  - Deep Learning
   - Natural Language Processing
 
 last_modified_at: 2020-10-01T08:06:00-05:00
@@ -193,7 +192,7 @@ $projection \ layer : p^{layer} = (lookup(x_{t−n}) ; \cdots ; lookup(x_{t−2}
 
 예를 들어, 원-핫 벡터의 차원이 7이고 투사층의 차원이 5이면, $1 \times 7$ 크기의 원-핫 벡터와 $7 \times 5$ 크기의 가중치 행렬을 곱하여 $1 \times 5$ 크기의 임베딩 벡터를 만듭니다.
 
-![]({{site.url}}/assets/images/DL/NLP/nnlm2_renew.PNG)
+![]({{site.url}}/assets/images/AI/NLP/nnlm2_renew.PNG)
 
 - $x$ : 각 단어의 원-핫 벡터 (크기는 $1 \times V$)
 - $W$ : 가중치 행렬 (크기는 $V \times M$)
@@ -205,7 +204,7 @@ $x$가 각각 $i$번째 인덱스에서는 1을, 이외에는 0을 값으로 갖
 
 각 단어의 원-핫 벡터를 룩업 테이블을 통해 임베딩 벡터로 변경하고 나면, 모든 임베딩 벡터들의 값을 연결(concatenation)합니다. 그 결과 투사층의 출력의 크기는 $n \times M$이 됩니다.
 
-![]({{site.url}}/assets/images/DL/NLP/nnlm3_renew.PNG)
+![]({{site.url}}/assets/images/AI/NLP/nnlm3_renew.PNG)
 
 은닉층에서는 투사층의 출력을 입력받아 가중치를 곱하고 편향을 더하여 활성화 함수를 지난 것을 출력합니다. 은닉층의 크기는 $h$입니다. 이를 식으로 나타내면 다음과 같습니다.
 
@@ -217,7 +216,7 @@ $hidden layer : h^{layer} = \tanh( W_h p^{layer} + b_h)$
 
 이를 그림으로 나타내면 다음과 같습니다.
 
-![]({{site.url}}/assets/images/DL/NLP/nnlm4.PNG)
+![]({{site.url}}/assets/images/AI/NLP/nnlm4.PNG)
 
 출력층에서는 은닉층의 출력을 입력받아 가중치를 곱하고 편향을 더하여 활성화 함수를 지난 것을 출력합니다. 출력층의 크기는 $V$입니다. 이를 식으로 나타내면 다음과 같습니다.
 
@@ -231,7 +230,7 @@ $output layer : \hat{y} = softmax(W_y h^{layer} + b_y)$
 
 이를 그림으로 나타내면 다음과 같습니다.
 
-![]({{site.url}}/assets/images/DL/NLP/nnlm5_final.PNG)
+![]({{site.url}}/assets/images/AI/NLP/nnlm5_final.PNG)
 
 ### NNLM 의의 및 한계
 

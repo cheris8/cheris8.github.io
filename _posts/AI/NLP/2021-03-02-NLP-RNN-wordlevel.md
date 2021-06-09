@@ -2,7 +2,7 @@
 title: '[NLP] 단어 단위 RNN Code'
 
 categories:
-  - Deep Learning
+  - Artificial Intelligence
 tags:
   - Natural Language Processing
 

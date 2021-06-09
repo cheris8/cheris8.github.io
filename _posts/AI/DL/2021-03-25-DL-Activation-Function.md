@@ -2,7 +2,7 @@
 title: '[딥러닝] 활성화 함수 (Activation Function)'
 
 categories:
-  - Deep Learning
+  - Artificial Intelligence
 tags:
   - Deep Learning
 
@@ -49,9 +49,9 @@ $\sigma'(x) = \sigma(x) (1 - \sigma(x))$
 
 시그모이드 함수의 그래프는 다음과 같습니다.
 
-![]({{site.url}}/assets/images/DL/DL/sigmoid.png)
+![]({{site.url}}/assets/images/AI/DL/sigmoid.png)
 
-![]({{site.url}}/assets/images/DL/DL/dsigmoid.png)
+![]({{site.url}}/assets/images/AI/DL/dsigmoid.png)
 
 ### 특징
 - 출력값이 0과 1 사이입니다.
@@ -79,7 +79,7 @@ $f(x) = \sigma_i (x) = \frac{e^{x_i}}{\sum_j e^{x_j}}$
 
 소프트맥스 함수의 그래프는 다음과 같습니다.
 
-![]({{site.url}}/assets/images/DL/DL/softmax.png)
+![]({{site.url}}/assets/images/AI/DL/softmax.png)
 
 ### 특징
 - 출력값이 0과 1 사이입니다.
@@ -102,9 +102,9 @@ $\tanh'(x) = 1 − {\tanh}^2 (x)$
 
 하이퍼볼릭탄젠트 함수의 그래프는 다음과 같습니다.
 
-![]({{site.url}}/assets/images/DL/DL/tanh.png)
+![]({{site.url}}/assets/images/AI/DL/tanh.png)
 
-![]({{site.url}}/assets/images/DL/DL/dtanh.png)
+![]({{site.url}}/assets/images/AI/DL/dtanh.png)
 
 ### 특징
 - 출력값이 -1과 1 사이입니다.
@@ -127,7 +127,7 @@ $f(x) = \max(0, x)$
 
 ReLU 함수의 그래프는 다음과 같습니다.
 
-![]({{site.url}}/assets/images/DL/DL/relu.png)
+![]({{site.url}}/assets/images/AI/DL/relu.png)
 
 ### 특징
 - 입력값이 0보다 작으면 출력값은 0이 되고, 입력값이 0보다 크면 출력값은 $x$가 됩니다.
@@ -152,7 +152,7 @@ $f(x) = \max(ax, x)$
 
 leaky ReLU 함수의 그래프는 다음과 같습니다.
 
-![]({{site.url}}/assets/images/DL/DL/leakyrelu.png)
+![]({{site.url}}/assets/images/AI/DL/leakyrelu.png)
 
 ### 특징
 - 입력값이 0보다 작으면 출력값은 $ax$가 되고, 입력값이 0보다 크면 출력값은 $1$이 됩니다.
