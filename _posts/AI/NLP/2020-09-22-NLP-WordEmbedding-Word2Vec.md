@@ -215,9 +215,9 @@ Skip-gram의 계산 과정에 대해 살펴보겠습니다.
 
 <center>$v = x \times W$</center>
 
-- $x$ : 중심 단어의 one-hot vector ($1 x V$ 벡터)
-- $W$ : 가중치 행렬 ($V x M$ 행렬)
-- $v$ : embedded vector $1 x M$ 벡터
+- $x$ : 중심 단어의 one-hot vector ($1 \times V$ 벡터)
+- $W$ : 가중치 행렬 ($V \times M$ 행렬)
+- $v$ : embedded vector $1 \times M$ 벡터
 
 **~~Skip-gram에서는 embedded vector가 하나이기 때문에 평균을 구하지 않습니다.~~**
 
