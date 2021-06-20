@@ -167,11 +167,11 @@ sit = [0, 0, 0, 0, 0, 1, 0]
 on = [0, 0, 0, 0, 0, 0, 1]
 ```
 
-이러한 각 단어의 원-핫 벡터들은 NNLM의 입력(input)이자 레이블(label)이 됩니다. 언어 모델은 이전 단어들이 주어졌을 때 다음 단어를 예측하는 모델이므로, "what will the fat cat"이 입력으로 주어지면 다음 단어 "sit"을 예측하는 방식으로 학습이 진행됩니다. 이는 실제로는 "what", "will", "the", "fat", "cat"의 원-핫 벡터를 입력받아 "sit"의 원-핫 벡터를 예측하는 문제가 됩니다. 이때 NNLM에서는 다음 단어를 예측하기 위해 이전 모든 단어들을 참고하는 것이 아니라 $n$개의 단어들만을 참고하는데, 이 $n$을 윈도우 크기(window size)라고 합니다. 즉 $n=4$일 때, "sit"을 예측하기 위해 4개의 단어 "will", "the", "fat", "cat"만을 참고한다는 것입니다. 
+이러한 각 단어의 원-핫 벡터들은 NNLM의 입력(input)이자 레이블(label)이 됩니다. 언어 모델은 이전 단어들이 주어졌을 때 다음 단어를 예측하는 모델이므로, "what will the fat cat"이 입력으로 주어지면 다음 단어 "sit"을 예측하는 방식으로 학습이 진행됩니다. 이는 실제로는 "what", "will", "the", "fat", "cat"의 원-핫 벡터를 입력받아 "sit"의 원-핫 벡터를 예측하는 문제가 됩니다. 이때 NNLM에서는 다음 단어를 예측하기 위해 이전 모든 단어들을 참고하는 것이 아니라 $n$개의 단어들만을 참고하는데, 이 $n$을 윈도우 크기(window size)라고 합니다. 즉 $n=4$일 때, "sit"을 예측하기 위해 4개의 단어 "will", "the", "fat", "cat"만을 참고한다는 것입니다.
 
 NNLM의 전체적인 구조는 다음과 같습니다.
 
-![]({{site.url}}/assets/images/DL/NLP/nnlm1.PNG)
+![]({{site.url}}/assets/images/AI/NLP/nnlm1.PNG)
 
 NNLM은 입력층(Input layer), 투사층(Projection layer), 은닉층(Hidden layer), 출력층(Output layer) 총 4개의 층(layer)로 이루어져 있습니다. 각각의 차원은 다음과 같습니다.
 
