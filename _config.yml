@@ -19,8 +19,8 @@ locale                   : "ko-KR"
 title                    : "happilyeverafter"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "happilyeverafter"
-description              : "오래오래 행복하게"
+name                     : "Chae Hyeong Kim"
+description              : 
 url                      : "https://cheris8.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cheris8/cheris8.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
