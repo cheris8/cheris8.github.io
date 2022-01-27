@@ -5,7 +5,10 @@ layout: single
 classes: wide
 ---
 
+<!--
 ![]({{site.url}}/assets/images/bio-photo.jpg){: .align-right}
+-->
+
 Hello,  
 I am a MS student in Artificial Intelligence at Yonsei University,  
 advised by Prof. Jinyoung Yeo in [CONVEI Lab](http://convei.weebly.com).
@@ -39,17 +42,22 @@ Under review for *Proceedings of NAACL 2022*.
 
 ## Experiences
 
-**Teaching Assistant for Software Capstone Design (Prof. Jinyoung Yeo)** *Jan 2022 - Present*{: .text-right}  
+**Teaching Assistant for Software Capstone Design (Prof. Jinyoung Yeo)** 
+*Jan 2022 - Present*{: .text-right}  
 *Yonsei University, Seoul, Republic of Korea*
 
-**Circular Reasoning AI: Self-question-and-answer-based Automatic Medical Diagnosis Technology** *Sep 2021 - Present*{: .text-right}  
+**Circular Reasoning AI: Self-question-and-answer-based Automatic Medical Diagnosis Technology** 
+*Sep 2021 - Present*{: .text-right}  
 *Samsung, Republic of Korea*
 
-**Teaching Assistant for AI Smart Technology II** *Sep 2021 - Dec 2021*{: .text-right}  
+**Teaching Assistant for AI Smart Technology II** 
+*Sep 2021 - Dec 2021*{: .text-right}  
 *Yonsei University, Seoul, Republic of Korea*
 
-**Teaching Assistant for AA Instruction Program** *Jul 2021 - Aug 2021*{: .text-right}  
+**Teaching Assistant for AA Instruction Program** 
+*Jul 2021 - Aug 2021*{: .text-right}  
 *Hanhwa Total, Republic of Korea*
 
-**Persona-based Chatbots** *Jul 2021 - Aug 2021*{: .text-right}  
+**Persona-based Chatbots** 
+*Jul 2021 - Aug 2021*{: .text-right}  
 *Yonsei Signature Research Cluster Program, Republic of Korea*
