@@ -39,7 +39,7 @@ Under review for *Proceedings of NAACL 2022*.
 
 ## Experiences
 
-**Teaching Assistant for Software Capstone Design (Prof. Jinyoung Yeo)** *Jan 2022 - Present*  
+**Teaching Assistant for Software Capstone Design (Prof. Jinyoung Yeo)** *Jan 2022 - Present* {: .text-right}
 *Yonsei University, Seoul, Republic of Korea*
 
 **Circular Reasoning AI: Self-question-and-answer-based Automatic Medical Diagnosis Technology** *Sep 2021 - Present*  
