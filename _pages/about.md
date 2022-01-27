@@ -5,6 +5,20 @@ layout: single
 classes: wide
 ---
 
+
+
+I am a MS student in Artificial Intelligence at Yonsei University,
+
+advised py Prof. Jinyoung Yeo in Convei Lab.
+
+I am interested in
+
+- Dialogue Agent
+- Machine Reasoning
+- Natural Language Processing
+
+You can contact me via e-mail.
+
 > 오래오래 행복하게
 
 ```

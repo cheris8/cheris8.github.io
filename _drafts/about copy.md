@@ -1,0 +1,57 @@
+---
+title: "Personal Homepage"
+permalink: /about/
+layout: single
+classes: wide
+---
+
+Hello,
+I am a MS student in Artificial Intelligence at Yonsei University,
+advised py Prof. Jinyoung Yeo in Convei Lab.
+
+I am interested in
+
+- Dialogue Agent
+- Machine Reasoning
+- Natural Language Processing
+
+You can contact me via e-mail.
+
+## Education
+
+**Yonsei University, Seoul, Republic of Korea** *Sep 2021 - Present*
+M.S. Student, Department of Artificial Intelligence  
+Advised by Prof. Jinyoung Yeo 
+
+**Yonsei University, Seoul, Republic of Korea** *Mar 2017 - Aug 2021*
+B.S., Double major in Department Library and Information Science \& Department of Applied Statistics
+
+## Publications
+
+**BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets**  
+Minju Kim*, Chae Hyeong Kim*, Yongho Song, Seung-won Hwang, Jinyoung Yeo  
+Under review for *Proceedings of NAACL 2022*.
+
+**MARS: Multi-aspect Movie Review System for Age-restricted Rating Prediction and Counterfactual Editing Simulation**
+Chae Hyeong Kim, Gayeon Lee, Seung-won Hwang, Jinyoung Yeo  
+Under review for *Proceedings of NAACL 2022*.
+
+
+## Experiences
+
+**Teaching Assistant for Software Capstone Design (Prof. Jinyoung Yeo)** *Jan 2022 - Present*
+*Yonsei University, Seoul, Republic of Korea*
+
+**Circular Reasoning AI: Self-question-and-answer-based Automatic Medical Diagnosis Technology** *Sep 2021 - Present*
+*Samsung, Republic of Korea*
+
+**Teaching Assistant for AI Smart Technology II** *Sep 2021 - Dec 2021*
+*Yonsei University, Seoul, Republic of Korea*
+
+**Teaching Assistant for AA Instruction Program** *Jul 2021 - Aug 2021*
+*Hanhwa Total, Republic of Korea*
+
+**Persona-based Chatbots** *Jul 2021 - Aug 2021*
+*Yonsei Signature Research Cluster Program, Republic of Korea*
+
+- Developing multi-skill open-domain chatbots which reveals personality, knowledge, and empathy properly.
