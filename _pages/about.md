@@ -53,3 +53,7 @@ Under review for *Proceedings of NAACL 2022*.
 
 **Persona-based Chatbots** *Jul 2021 - Aug 2021*  
 *Yonsei Signature Research Cluster Program, Republic of Korea*
+
+
+오른쪽 정렬
+{: .text-right}
