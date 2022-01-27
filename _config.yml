@@ -97,12 +97,12 @@ author:
   name             : "김채형 (Kim Chae Hyeong)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
-  location         : "South Korea"
+  location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:cheris8h@email.com"
+      url: "mailto:cheris8h@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://cheris8.github.io"
@@ -117,7 +117,7 @@ author:
       url: "https://github.com/cheris8"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/cheheimish/"
+      url: "https://www.instagram.com/chechae.hyeong/"
 
 # Site Footer
 footer:
