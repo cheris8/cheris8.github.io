@@ -5,7 +5,7 @@ layout: single
 classes: wide
 ---
 
-
+![]({{site.url}}/assets/images/bio-photo.jpg){: .align-right}
 Hello,  
 I am a MS student in Artificial Intelligence at Yonsei University,  
 advised by Prof. Jinyoung Yeo in [CONVEI Lab](http://convei.weebly.com).
