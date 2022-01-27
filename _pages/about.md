@@ -5,9 +5,10 @@ layout: single
 classes: wide
 ---
 
+
 Hello,  
 I am a MS student in Artificial Intelligence at Yonsei University,  
-advised py Prof. Jinyoung Yeo in Convei Lab.
+advised by Prof. Jinyoung Yeo in [CONVEI Lab](http://convei.weebly.com).
 
 I am interested in
 
@@ -24,12 +25,12 @@ M.S. Student, Department of Artificial Intelligence
 Advised by Prof. Jinyoung Yeo
 
 **Yonsei University, Seoul, Republic of Korea** *Mar 2017 - Aug 2021*  
-B.S., Double major in Department Library and Information Science \& Department of Applied Statistics
+B.S., Double major in Department Library and Information Science & Department of Applied Statistics
 
 ## Publications
 
 **BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets**  
-Minju Kim*, Chae Hyeong Kim*, Yongho Song, Seung-won Hwang, Jinyoung Yeo  
+Minju Kim\*, Chae Hyeong Kim\*, Yongho Song, Seung-won Hwang, Jinyoung Yeo  
 Under review for *Proceedings of NAACL 2022*.
 
 **MARS: Multi-aspect Movie Review System for Age-restricted Rating Prediction and Counterfactual Editing Simulation**  
