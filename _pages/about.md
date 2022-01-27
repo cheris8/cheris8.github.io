@@ -20,11 +20,11 @@ You can contact me via e-mail.
 
 ## Education
 
-**Yonsei University, Seoul, Republic of Korea** *Sep 2021 - Present*  
+**Yonsei University, Seoul, Republic of Korea** *Sep 2021 - Present*{: .text-right}  
 M.S. Student, Department of Artificial Intelligence  
 Advised by Prof. Jinyoung Yeo
 
-**Yonsei University, Seoul, Republic of Korea** *Mar 2017 - Aug 2021*  
+**Yonsei University, Seoul, Republic of Korea** *Mar 2017 - Aug 2021*{: .text-right}   
 B.S., Double major in Department Library and Information Science & Department of Applied Statistics
 
 ## Publications
@@ -39,21 +39,17 @@ Under review for *Proceedings of NAACL 2022*.
 
 ## Experiences
 
-**Teaching Assistant for Software Capstone Design (Prof. Jinyoung Yeo)** *Jan 2022 - Present* {: .text-right}
+**Teaching Assistant for Software Capstone Design (Prof. Jinyoung Yeo)** *Jan 2022 - Present*{: .text-right}  
 *Yonsei University, Seoul, Republic of Korea*
 
-**Circular Reasoning AI: Self-question-and-answer-based Automatic Medical Diagnosis Technology** *Sep 2021 - Present*  
+**Circular Reasoning AI: Self-question-and-answer-based Automatic Medical Diagnosis Technology** *Sep 2021 - Present*{: .text-right}  
 *Samsung, Republic of Korea*
 
-**Teaching Assistant for AI Smart Technology II** *Sep 2021 - Dec 2021*  
+**Teaching Assistant for AI Smart Technology II** *Sep 2021 - Dec 2021*{: .text-right}  
 *Yonsei University, Seoul, Republic of Korea*
 
-**Teaching Assistant for AA Instruction Program** *Jul 2021 - Aug 2021*  
+**Teaching Assistant for AA Instruction Program** *Jul 2021 - Aug 2021*{: .text-right}  
 *Hanhwa Total, Republic of Korea*
 
-**Persona-based Chatbots** *Jul 2021 - Aug 2021*  
+**Persona-based Chatbots** *Jul 2021 - Aug 2021*{: .text-right}  
 *Yonsei Signature Research Cluster Program, Republic of Korea*
-
-
-오른쪽 정렬
-{: .text-right}
