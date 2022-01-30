@@ -8,15 +8,15 @@ classes: wide
 
 
 
-![]({{site.url}}/assets/images/bio-photo.jpg){: .align-right width="200" height="200"}
-Hello,  
-I am a MS student in Artificial Intelligence at Yonsei University,  
+![]({{site.url}}/assets/images/bio-photo.jpg){: .align-right width="250" height="250"}
+
+Hello, I am a MS student in Artificial Intelligence at Yonsei University,  
 advised by Prof. Jinyoung Yeo in [CONVEI Lab](http://convei.weebly.com).  
 I am interested in
+
 - Dialogue Agent
 - Machine Reasoning
 - Natural Language Processing
-You can contact me via e-mail.
 
 ## Education
 
@@ -60,3 +60,7 @@ Under review for *Proceedings of NAACL 2022*.
 Jul 2021 - Aug 2021{: .text-right}
 
 *Yonsei Signature Research Cluster Program, Republic of Korea*
+
+
+오른쪽 정렬 {: .text-right}
+
