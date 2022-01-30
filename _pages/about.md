@@ -5,10 +5,8 @@ layout: single
 classes: wide
 ---
 
-<!--
-![]({{site.url}}/assets/images/bio-photo.jpg){: .align-right}
--->
 
+![]({{site.url}}/assets/images/bio-photo.jpg){: .align-right width="150" height="150"}
 Hello,  
 I am a MS student in Artificial Intelligence at Yonsei University,  
 advised by Prof. Jinyoung Yeo in [CONVEI Lab](http://convei.weebly.com).
@@ -59,5 +57,6 @@ Under review for *Proceedings of NAACL 2022*.
 *Hanhwa Total, Republic of Korea*
 
 **Persona-based Chatbots** 
-Jul 2021 - Aug 2021{: .text-right}  
+Jul 2021 - Aug 2021{: .text-right}
+
 *Yonsei Signature Research Cluster Program, Republic of Korea*
