@@ -59,5 +59,5 @@ Under review for *Proceedings of NAACL 2022*.
 *Hanhwa Total, Republic of Korea*
 
 **Persona-based Chatbots** 
-*Jul 2021 - Aug 2021*{: .text-right}  
+Jul 2021 - Aug 2021{: .text-right}  
 *Yonsei Signature Research Cluster Program, Republic of Korea*
