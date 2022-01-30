@@ -1,5 +1,5 @@
 ---
-title: "Personal Homepage"
+title: "About ME"
 permalink: /about/
 layout: single
 classes: wide
@@ -8,7 +8,7 @@ classes: wide
 
 
 
-![]({{site.url}}/assets/images/bio-photo.jpg){: .align-right width="150" height="150"}
+![]({{site.url}}/assets/images/bio-photo.jpg){: .align-right width="200" height="200"}
 Hello,  
 I am a MS student in Artificial Intelligence at Yonsei University,  
 advised by Prof. Jinyoung Yeo in [CONVEI Lab](http://convei.weebly.com).  
