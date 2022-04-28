@@ -25,13 +25,7 @@ B.S., Double major in Department Library and Information Science & Department of
 
 ## 📚 Publications
 
-**BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets**  
-Minju Kim\*, Chae Hyeong Kim\*, Yongho Song, Seung-won Hwang, Jinyoung Yeo  
-Under review for *Proceedings of NAACL 2022*.
 
-**MARS: Multi-aspect Movie Review System for Age-restricted Rating Prediction and Counterfactual Editing Simulation**  
-Chae Hyeong Kim, Gayeon Lee, Seung-won Hwang, Jinyoung Yeo  
-Under review for *Proceedings of NAACL 2022*.
 
 ## 🎨 Projects
 
