@@ -25,11 +25,26 @@ B.S., Double major in Department Library and Information Science & Department of
 
 ## 📚 Publications
 
+**BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets**  
+Minju Kim$^*$, Chae Hyeong Kim$^*$, Yongho Song, Seung-won Hwang, Jinyoung Yeo  
+*ArXiv preprint*
 
+<!--
+**Fine-grained Explanatory Learning for Predicting the Age-Suitability Rating of Movie Scripts**  
+Chae Hyeong Kim, Gayeon Lee, Seung-won Hwang, Jinyoung Yeo  
+Under review for *Proceedings of COLING 2022*.
+
+**Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization**  
+Seungone Kim$^*$, Se June Joo$^*$, Hyungjoo Chae$^*$, Chae Hyeong Kim$^*$, Seung-won Hwang, Jinyoung Yeo  
+Under review for *Proceedings of COLING 2022*.
+-->
 
 ## 🎨 Projects
 
-**Samsung, Republic of Korea** *Sep 2021 - Present*  
+**Woori Bank, Seoul, Republic of Korea** *Mar 2022 - Present*  
+AI Banker: Smart KMS \& Smart Search.
+
+**Samsung, Republic of Korea** *Sep 2021 - Dec 2021*  
 Circular Reasoning AI: Self-question-and-answer-based Automatic Medical Diagnosis Technology
 
 **Yonsei Signature Research Cluster Program, Republic of Korea** *Jul 2021 - Aug 2021*  
