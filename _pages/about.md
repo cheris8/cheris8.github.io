@@ -26,7 +26,7 @@ B.S., Double major in Department Library and Information Science & Department of
 ## 📚 Publications
 
 **BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets**  
-Minju Kim$^*$, Chae Hyeong Kim$^*$, Yongho Song, Seung-won Hwang, Jinyoung Yeo  
+Minju Kim\*, Chae Hyeong Kim\*, Yongho Song, Seung-won Hwang, Jinyoung Yeo  
 *ArXiv preprint*
 
 <!--
@@ -42,7 +42,7 @@ Under review for *Proceedings of COLING 2022*.
 ## 🎨 Projects
 
 **Woori Bank, Seoul, Republic of Korea** *Mar 2022 - Present*  
-AI Banker: Smart KMS \& Smart Search.
+AI Banker: Smart KMS & Smart Search.
 
 **Samsung, Republic of Korea** *Sep 2021 - Dec 2021*  
 Circular Reasoning AI: Self-question-and-answer-based Automatic Medical Diagnosis Technology
