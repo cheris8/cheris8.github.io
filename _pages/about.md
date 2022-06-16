@@ -44,8 +44,8 @@ Under review for *Proceedings of COLING 2022*.
 **Woori Bank, Seoul, Republic of Korea** *Mar 2022 - Present*  
 AI Banker: Smart KMS & Smart Search.
 
-**Samsung, Republic of Korea** *Sep 2021 - Dec 2021*  
-Circular Reasoning AI: Self-question-and-answer-based Automatic Medical Diagnosis Technology
+**Samsung, Seoul, Republic of Korea** *Sep 2021 - Dec 2021*  
+Circular Reasoning AI: Self-question-and-answer-based Automatic Medical Diagnosis Technology.
 
 **Yonsei Signature Research Cluster Program, Republic of Korea** *Jul 2021 - Aug 2021*  
-Persona-based Chatbots
+Persona-based Chatbots.
