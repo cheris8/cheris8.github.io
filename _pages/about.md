@@ -25,11 +25,11 @@ B.S., Double major in Department Library and Information Science & Department of
 
 ## 📚 Publications
 
+<!--
 **BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets**  
 Minju Kim\*, Chae Hyeong Kim\*, Yongho Song, Seung-won Hwang, Jinyoung Yeo  
 *ArXiv preprint*
 
-<!--
 **Fine-grained Explanatory Learning for Predicting the Age-Suitability Rating of Movie Scripts**  
 Chae Hyeong Kim, Gayeon Lee, Seung-won Hwang, Jinyoung Yeo  
 Under review for *Proceedings of COLING 2022*.
