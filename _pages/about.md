@@ -25,6 +25,10 @@ B.S., Double major in Department Library and Information Science & Department of
 
 ## 📚 Publications
 
+Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization  
+Seungone Kim$^*$, Se June Joo$^*$, Hyungjoo Chae$^*$, Chaehyeong Kim$^*$, Seung-won Hwang, Jinyoung Yeo  
+In *Proceedings of COLING (long)*. 2022.
+
 <!--
 **BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets**  
 Minju Kim\*, Chae Hyeong Kim\*, Yongho Song, Seung-won Hwang, Jinyoung Yeo  
@@ -33,15 +37,11 @@ Minju Kim\*, Chae Hyeong Kim\*, Yongho Song, Seung-won Hwang, Jinyoung Yeo
 **Fine-grained Explanatory Learning for Predicting the Age-Suitability Rating of Movie Scripts**  
 Chae Hyeong Kim, Gayeon Lee, Seung-won Hwang, Jinyoung Yeo  
 Under review for *Proceedings of COLING 2022*.
-
-**Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization**  
-Seungone Kim$^*$, Se June Joo$^*$, Hyungjoo Chae$^*$, Chae Hyeong Kim$^*$, Seung-won Hwang, Jinyoung Yeo  
-Under review for *Proceedings of COLING 2022*.
 -->
 
 ## 🎨 Projects
 
-**Woori Bank, Seoul, Republic of Korea** *Mar 2022 - Present*  
+**Woori Bank, Seoul, Republic of Korea** *Mar 2022 - Aug 2022*  
 AI Banker: Smart KMS & Smart Search.
 
 **Samsung, Seoul, Republic of Korea** *Sep 2021 - Dec 2021*  
