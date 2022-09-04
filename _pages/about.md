@@ -3,6 +3,7 @@ title: "About ME"
 permalink: /about/
 layout: single
 classes: wide
+use_math: true
 ---
 
 ![]({{site.url}}/assets/images/cv-photo.jpg){: .align-right width="220" height="220"}
