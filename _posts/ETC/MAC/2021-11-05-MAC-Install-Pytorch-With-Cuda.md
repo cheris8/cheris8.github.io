@@ -1,5 +1,5 @@
 ---
-title: '[macOS] CUDA를 사용할 수 있도록 PyTorch 설치'
+title: '[macOS] CUDA를 사용하도록 PyTorch 설치'
 
 categories:
   - Etc
@@ -10,7 +10,7 @@ last_modified_at: 2021-11-05T08:06:00-05:00
 classes: wide
 ---
 
-이 글은 macOS에서 CUDA를 사용할 수 있도록 PyTorch를 설치하는 방법에 대한 기록입니다.
+이 글은 macOS에서 CUDA를 사용할 수 있도록 PyTorch를 설치하는 방법에 관한 기록입니다.
 
 ```bash
 # cuda 버전 확인

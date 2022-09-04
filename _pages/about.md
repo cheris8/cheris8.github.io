@@ -11,7 +11,7 @@ Hello, I am a MS student in Artificial Intelligence at Yonsei University,
 advised by Prof. Jinyoung Yeo in [CONVEI Lab](http://convei.weebly.com). I am interested in
 
 - Dialogue Agent
-- Machine Reasoning
+- Commonsense Reasoning
 - Natural Language Processing
 
 ## 🎓 Education
@@ -26,14 +26,10 @@ B.S., Double major in Department Library and Information Science & Department of
 ## 📚 Publications
 
 Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization  
-Seungone Kim$^*$, Se June Joo$^*$, Hyungjoo Chae$^*$, Chaehyeong Kim$^*$, Seung-won Hwang, Jinyoung Yeo  
+Seungone Kim$^\*$, Se June Joo$^\*$, Hyungjoo Chae$^\*$, Chaehyeong Kim$^\*$, Seung-won Hwang, Jinyoung Yeo  
 In *Proceedings of COLING (long)*. 2022.
 
 <!--
-**BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets**  
-Minju Kim\*, Chae Hyeong Kim\*, Yongho Song, Seung-won Hwang, Jinyoung Yeo  
-*ArXiv preprint*
-
 **Fine-grained Explanatory Learning for Predicting the Age-Suitability Rating of Movie Scripts**  
 Chae Hyeong Kim, Gayeon Lee, Seung-won Hwang, Jinyoung Yeo  
 Under review for *Proceedings of COLING 2022*.
