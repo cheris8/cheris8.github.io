@@ -21,12 +21,12 @@ M.S. Student, Department of Artificial Intelligence
 Advised by Prof. Jinyoung Yeo
 
 **Yonsei University, Seoul, Republic of Korea** *Mar 2017 - Aug 2021*  
-B.S., Double major in Department Library and Information Science & Department of Applied Statistics
+B.A., Major in Department of Library and Information Science, Minor in Department of Applied Statistics
 
 ## 📚 Publications
 
 Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization  
-Seungone Kim$^\*$, Se June Joo$^\*$, Hyungjoo Chae$^\*$, Chaehyeong Kim$^\*$, Seung-won Hwang, Jinyoung Yeo  
+Seungone Kim$^\ast$, Se June Joo$^\ast$, Hyungjoo Chae$^\ast$, Chaehyeong Kim$^\ast$, Seung-won Hwang, Jinyoung Yeo  
 In *Proceedings of COLING (long)*. 2022.
 
 <!--
