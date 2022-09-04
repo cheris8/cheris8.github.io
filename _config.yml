@@ -108,7 +108,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cheris8"
     - label: "CV"
-      icon: "fab fa-fw fa-download"
+      icon: "fa fa-download fa-fw"
       url: "https://cheris8.github.io/assets/CV.pdf"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
