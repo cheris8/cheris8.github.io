@@ -1,5 +1,5 @@
 ---
-title: '[macOS] 서버 관련 명령어'
+title: '[macOS] 서버 명령어'
 
 categories:
   - Etc
