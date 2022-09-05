@@ -18,7 +18,7 @@ use_math: true
 
 트랜스포머(Transformer)는 어텐션(Attention)만으로 인코더-디코더(Encoder-Decoder) 구조를 설계한 모델입니다.
 
-
+model.generate()
 
 - `max_length`
   - `(int, optional, defaults to model.config.max_length)`

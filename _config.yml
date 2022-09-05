@@ -96,9 +96,9 @@ analytics:
 author:
   name             : "김채형 (Chaehyeong Kim)"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
-  location         : ""
-  email            : ""
+  bio              : 
+  location         : 
+  email            : 
   links:
 
     - label: "Website"
