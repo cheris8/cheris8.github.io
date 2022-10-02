@@ -96,12 +96,12 @@ analytics:
 author:
   name             : "김채형 (Chaehyeong Kim)"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : 
-  location         : Seoul
+  bio              : "Archive"
+  location         : "Seoul"
   email            : 
   links:
     - label: "Website"
-      icon: "fa fa-link"
+      icon: "fa fa-link fa-fw"
       url: "https://cheris8.github.io"
     - label: "GitHub"
       icon: "fab fa-github"
