@@ -100,22 +100,21 @@ author:
   location         : 
   email            : 
   links:
-
     - label: "Website"
-      icon: "fab fa-link fa-fw"
+      icon: "fa-solid fa-link fa-fw"
       url: "https://cheris8.github.io"
     - label: "GitHub"
-      icon: "fab fa-github fa-fw"
+      icon: "fa-solid fa-github fa-fw"
       url: "https://github.com/cheris8"
     - label: "CV"
-      icon: "fab fa-download fa-fw"
+      icon: "fa-solid fa-download fa-fw"
       url: "https://cheris8.github.io/assets/CV.pdf"
     - label: "Email"
-      icon: "fab fa-envelope fa-fw"
+      icon: "fa-solid fa-envelope fa-fw"
       # icon: "fas fa-fw fa-envelope-square"
       url: "mailto:cheris8h@gmail.com"
     - label: "Instagram"
-      icon: "fab fa-instagram fa-fw"
+      icon: "fa-solid fa-instagram fa-fw"
       url: "https://www.instagram.com/chae.chae.hyeong/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
