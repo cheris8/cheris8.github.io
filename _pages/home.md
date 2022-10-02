@@ -1,5 +1,5 @@
 ---
-title: 
+title: CHAEHYEONG KIM
 permalink: /home/
 layout: single
 classes: wide
