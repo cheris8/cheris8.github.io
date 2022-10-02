@@ -1,6 +1,6 @@
 ---
 title: 
-permalink: /about/
+permalink: /home/
 layout: single
 classes: wide
 use_math: true
