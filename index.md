@@ -1,5 +1,4 @@
 ---
-title: 
 layout: single
 author_profile: true
 classes: wide
@@ -25,6 +24,10 @@ Advised by Prof. Jinyoung Yeo
 B.A., Major in Department of Library and Information Science, Minor in Department of Applied Statistics
 
 ## 📚 Publications
+
+BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets  
+Minju Kim$\ast$, Chaehyeong Kim$\ast$, Yongho Song$\ast$, Seung-won Hwang, Jinyoung Yeo  
+In *Proceedings of EMNLP (long)*. 2022.
 
 Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization  
 Seungone Kim$^\ast$, Se June Joo$^\ast$, Hyungjoo Chae$^\ast$, Chaehyeong Kim$^\ast$, Seung-won Hwang, Jinyoung Yeo  
