@@ -27,7 +27,7 @@ B.A., Major in Department of Library and Information Science, Minor in Departmen
 ## 📚 Publications
 
 BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets  
-Minju Kim$\ast$, Chaehyeong Kim$\ast$, Yongho Song$\ast$, Seung-won Hwang, Jinyoung Yeo  
+Minju Kim$^\ast$, Chaehyeong Kim$^\ast$, Yongho Song$^\ast$, Seung-won Hwang, Jinyoung Yeo  
 In *Proceedings of EMNLP (long)*. 2022.
 
 Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization  
