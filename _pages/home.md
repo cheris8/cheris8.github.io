@@ -27,7 +27,7 @@ B.A., Major in Department of Library and Information Science, Minor in Departmen
 ## 📚 Publications  
 
 TUTORING: Instruction-grounded Conversational Agent for Language Learners  
-Hyungjoo Chae, Minjin Kim, **Chaehyeong Kim**, Won Seok Jeong, Hye Soong Kim, June Myung Lee, Jinyoung Yeo  
+Hyungjoo Chae, Minjin Kim, **Chaehyeong Kim**, Wonseok Jeong, Hyejoong Kim, Junmyung Lee, Jinyoung Yeo  
 AAAI 2023 Demo Track
 
 BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets  
