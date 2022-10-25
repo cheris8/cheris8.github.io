@@ -32,7 +32,7 @@ AAAI 2023 Demo Track
 
 BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets  
 Minju Kim$^\ast$, **Chaehyeong Kim$^\ast$**, Yongho Song$^\ast$, Seung-won Hwang, Jinyoung Yeo  
-EMNLP 2022 [[paper](https://arxiv.org/abs/2210.12687)][[code](https://github.com/convei-lab/BotsTalk)]
+EMNLP 2022 [[paper](https://arxiv.org/abs/2210.12687)] [[code](https://github.com/convei-lab/BotsTalk)]
 
 Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization  
 Seungone Kim$^\ast$, Se June Joo$^\ast$, Hyungjoo Chae$^\ast$, **Chaehyeong Kim$^\ast$**, Seung-won Hwang, Jinyoung Yeo  
