@@ -24,15 +24,19 @@ Advised by Prof. Jinyoung Yeo
 **Yonsei University, Seoul, Republic of Korea** *Mar 2017 - Aug 2021*  
 B.A., Major in Department of Library and Information Science, Minor in Department of Applied Statistics
 
-## 📚 Publications
+## 📚 Publications  
+
+TUTORING: Instruction-grounded Conversational Agent for Language Learners  
+Hyungjoo Chae, Minjin Kim, **Chaehyeong Kim**, Won Seok Jeong, Hye Soong Kim, June Myung Lee, Jinyoung Yeo  
+AAAI 2023 Demo Track
 
 BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets  
-Minju Kim$^\ast$, Chaehyeong Kim$^\ast$, Yongho Song$^\ast$, Seung-won Hwang, Jinyoung Yeo  
-In *Proceedings of EMNLP (long)*. 2022.
+Minju Kim$^\ast$, **Chaehyeong Kim$^\ast$**, Yongho Song$^\ast$, Seung-won Hwang, Jinyoung Yeo  
+EMNLP 2022 [[paper](https://arxiv.org/abs/2210.12687)][[code](https://github.com/convei-lab/BotsTalk)]
 
 Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization  
-Seungone Kim$^\ast$, Se June Joo$^\ast$, Hyungjoo Chae$^\ast$, Chaehyeong Kim$^\ast$, Seung-won Hwang, Jinyoung Yeo  
-In *Proceedings of COLING (long)*. 2022.
+Seungone Kim$^\ast$, Se June Joo$^\ast$, Hyungjoo Chae$^\ast$, **Chaehyeong Kim$^\ast$**, Seung-won Hwang, Jinyoung Yeo  
+COLING 2022 [[paper](https://arxiv.org/abs/2209.00930)]
 
 <!--
 **Fine-grained Explanatory Learning for Predicting the Age-Suitability Rating of Movie Scripts**  
