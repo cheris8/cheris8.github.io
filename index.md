@@ -10,7 +10,7 @@ use_math: true
 Hello, I am a MS student in Artificial Intelligence at Yonsei University,  
 advised by Prof. Jinyoung Yeo in [CONVEI Lab](http://convei.weebly.com). I am interested in
 
-- Dialogue Agent
+- Dialogue System
 - Commonsense Reasoning
 - Natural Language Processing
 
@@ -25,17 +25,17 @@ B.A., Major in Department of Library and Information Science, Minor in Departmen
 
 ## 📚 Publications  
 
-TUTORING: Instruction-grounded Conversational Agent for Language Learners  
+TUTORING: Instruction-Grounded Conversational Agent for Language Learners  
 Hyungjoo Chae, Minjin Kim, **Chaehyeong Kim**, Wonseok Jeong, Hyejoong Kim, Junmyung Lee, Jinyoung Yeo  
 AAAI 2023 Demo Track
 
 BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets  
 Minju Kim$^\ast$, **Chaehyeong Kim$^\ast$**, Yongho Song$^\ast$, Seung-won Hwang, Jinyoung Yeo  
-EMNLP 2022 [[paper](https://arxiv.org/abs/2210.12687)] [[code](https://github.com/convei-lab/BotsTalk)] [[poster]({{site.url}}/assets/slides/EMNLP2022_BotsTalk_poster.pdf)] [[slides]({{site.url}}/assets/slides/EMNLP2022_BotsTalk_slides.pdf)]
+EMNLP 2022 [[arXiv](https://arxiv.org/abs/2210.12687)] [[code](https://github.com/convei-lab/BotsTalk)] [[poster]({{site.url}}/assets/slides/EMNLP2022_BotsTalk_poster.pdf)] [[slides]({{site.url}}/assets/slides/EMNLP2022_BotsTalk_slides.pdf)]
 
 Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization  
 Seungone Kim$^\ast$, Se June Joo$^\ast$, Hyungjoo Chae$^\ast$, **Chaehyeong Kim$^\ast$**, Seung-won Hwang, Jinyoung Yeo  
-COLING 2022 [[paper](https://arxiv.org/abs/2209.00930)] [[poster]({{site.url}}/assets/slides/COLING2022_SICK_poster.pdf)]
+COLING 2022 [[paper]](https://aclanthology.org/2022.coling-1.548.pdf) [[arXiv]](https://arxiv.org/abs/2209.00930)] [[poster]({{site.url}}/assets/slides/COLING2022_SICK_poster.pdf)]
 
 <!--
 **Fine-grained Explanatory Learning for Predicting the Age-Suitability Rating of Movie Scripts**  
