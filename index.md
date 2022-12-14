@@ -35,7 +35,7 @@ EMNLP 2022 [[arXiv](https://arxiv.org/abs/2210.12687)] [[code](https://github.co
 
 Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization  
 Seungone Kim$^\ast$, Se June Joo$^\ast$, Hyungjoo Chae$^\ast$, **Chaehyeong Kim$^\ast$**, Seung-won Hwang, Jinyoung Yeo  
-COLING 2022 [[paper]](https://aclanthology.org/2022.coling-1.548.pdf) [[arXiv]](https://arxiv.org/abs/2209.00930)] [[poster]({{site.url}}/assets/slides/COLING2022_SICK_poster.pdf)]
+COLING 2022 [[paper](https://aclanthology.org/2022.coling-1.548.pdf)] [[arXiv](https://arxiv.org/abs/2209.00930)] [[poster]({{site.url}}/assets/slides/COLING2022_SICK_poster.pdf)]
 
 <!--
 **Fine-grained Explanatory Learning for Predicting the Age-Suitability Rating of Movie Scripts**  
