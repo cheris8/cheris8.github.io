@@ -1,5 +1,5 @@
 ---
-title: '[NLP] 허깅페이스 (HuggingFace) transformers를 활용한 텍스트 생성 (Text Generation) 방법'
+title: '[NLP] 허깅페이스 (HuggingFace) 텍스트 생성 (Text Generation) 방법'
 
 categories:
   - Artificial Intelligence
