@@ -32,11 +32,11 @@ AAAI 2023 Demo Track
 
 BotsTalk: Machine-Sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets  
 Minju Kim$^\ast$, **Chaehyeong Kim$^\ast$**, Yongho Song$^\ast$, Seung-won Hwang, Jinyoung Yeo  
-EMNLP 2022 [[arXiv](https://arxiv.org/abs/2210.12687)] [[code](https://github.com/convei-lab/BotsTalk)] [[poster]({{site.url}}/assets/slides/EMNLP2022_BotsTalk_poster.pdf)] [[slides]({{site.url}}/assets/slides/EMNLP2022_BotsTalk_slides.pdf)]
+EMNLP 2022 [[paper](https://aclanthology.org/2022.emnlp-main.344.pdf)] [[arXiv](https://arxiv.org/abs/2210.12687)] [[code](https://github.com/convei-lab/BotsTalk)] [[poster]({{site.url}}/assets/slides/EMNLP2022_BotsTalk_poster.pdf)] [[slides]({{site.url}}/assets/slides/EMNLP2022_BotsTalk_slides.pdf)]
 
 Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization  
 Seungone Kim$^\ast$, Se June Joo$^\ast$, Hyungjoo Chae$^\ast$, **Chaehyeong Kim$^\ast$**, Seung-won Hwang, Jinyoung Yeo  
-COLING 2022 [[paper](https://aclanthology.org/2022.coling-1.548.pdf)] [[arXiv](https://arxiv.org/abs/2209.00930)] [[poster]({{site.url}}/assets/slides/COLING2022_SICK_poster.pdf)]
+COLING 2022 [[paper](https://aclanthology.org/2022.coling-1.548.pdf)] [[arxiv](https://arxiv.org/abs/2209.00930)] [[code](https://github.com/SeungoneKim/SICK_Summarization)] [[poster]({{site.url}}/assets/slides/COLING2022_SICK_poster.pdf)]
 
 <!--
 **Fine-grained Explanatory Learning for Predicting the Age-Suitability Rating of Movie Scripts**  
